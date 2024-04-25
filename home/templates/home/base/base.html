@@ -1,0 +1,211 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--=============== basic  ===============-->
+    <meta charset="UTF-8">
+    {% if title %}
+        <title>ACUHOMES|{{ title }}</title>
+    {% else %}
+        <title>ACUHOMES</title>
+    {% endif %}
+    <meta name="robots" content="index, follow" />
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <!--=============== css  ===============-->
+    <link type="text/css" rel="stylesheet" href="{% static 'css/plugins.css' %}">
+    <link type="text/css" rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link type="text/css" rel="stylesheet" href="{% static 'css/color.css' %}">
+    <!--=============== favicons ===============-->
+    <link rel="shortcut icon" href="images/favicon.ico">
+</head>
+<body>
+    <!-- loader start  -->
+	<div class="loader-holder">
+		<span></span>
+		<span></span>
+		<span></span>
+	</div>
+
+    <!-- main start  -->
+	<div id="main">
+
+        <!-- progress-bar  -->
+		<div class="progress-bar-wrap">
+			<div class="progress-bar color-bg"></div>
+		</div>
+
+        <!-- header -->
+        <header class="main-header">
+			<!-- top bar -->
+			<div class="top-bar fl-wrap">
+				<div class="container">
+					<a href="#" class="tbhc_btn"><i class="fas fa-envelope"></i> Our Contacts</a>
+					<div class="top-bar-header-contact">
+						<ul>
+							<li><i class="fal fa-envelope"></i><a href="#">info@acuhomes.co.ke</a></li>
+							<li><i class="fal fa-map-marker"></i><a href="https://goo.gl/maps/dj5UaNJFkJ6rLNJy9" target="_blank"> 27th Brooklyn New York, NY 10065</a></li>
+							<li><i class="fal fa-phone"></i><a href="tel:+7(111)123456789"> +(254)720012309</a></li>
+						</ul>
+					</div>
+					<ul class="topbar-social">
+						<li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+						<li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
+						<li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
+					</ul>
+					<!--  login btn -->
+					<div class="show-reg-form "><i class="fas fa-user"></i><span>Sign In</span></div>
+					<!--  login btn  end -->
+				</div>
+			</div>
+			<!-- top bar end -->
+			<div class="header-inner fl-wrap">
+				<div class="container">
+					<!-- logo holder  -->
+					<a href="#" class="logo-holder"><img src="static/images/logo.png" alt=""></a>
+					<!-- logo holder end -->
+					<a href="cost.html" class="header-btn color-bg"><span>Cost Calculator </span> <i class="fal fa-function"></i></a>
+					<div class="search_btn htact show_search-btn"><i class="far fa-search"></i> <span class="header-tooltip">Search</span></div>
+					<div class="show-share-btn showshare htact"><i class="fal fa-bullhorn"></i> <span class="header-tooltip">Share</span></div>
+					<div class="show-cart sc_btn htact"><i class="fal fa-shopping-bag"></i><span class="show-cart_count">3</span><span class="header-tooltip">Your Cart</span></div>
+					<!-- header-search-wrap -->
+					<div class="header-search-wrap novis_sarch">
+						<div class="widget-inner">
+							<form action="#">
+								<input name="se" id="se" type="text" class="search" placeholder="Search..." value="" />
+								<button class="search-submit" id="submit_btn"><i class="fa fa-search transition"></i> </button>
+							</form>
+						</div>
+					</div>
+					<div class="share-wrapper  isShare">
+						<div class="close-share-btn"><i class="fal fa-long-arrow-up"></i></div>
+						<div class="share-container fl-wrap  isShare"></div>
+					</div>
+
+					<div class="nav-button-wrap">
+						<div class="nav-button">
+							<span></span><span></span><span></span>
+						</div>
+					</div>
+
+					<div class="nav-holder main-menu">
+						<nav>
+							<ul>
+								<li><a href="#" class="act-link">Home <i class="fas fa-caret-down"></i></a></li>
+                                <li><a href="about.html">About</a></li>
+								<li><a href="services.html">Services</a></li>
+								<li><a href="#">Projects <i class="fas fa-caret-down"></i></a></li>
+								<li><a href="contact.html">Contact</a></li>
+							</ul>
+						</nav>
+					</div>
+					<!-- navigation  end -->
+				</div>
+			</div>
+		</header>
+
+
+        <div id="wrapper">
+            <div class="content">
+
+                {% block content %}
+
+
+                {% endblock %}
+
+            </div>
+
+            <div class="height-emulator fl-wrap"></div>
+
+            <footer class="main-footer">
+				<div class="container">
+					<div class="footer-inner fl-wrap">
+						<div class="row">
+							<div class="col-md-4">
+								<!-- footer info -->
+								<div class="footer-info">
+									<h4>About us</h4>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Dolore magna aliqua. </p>
+									<a href="#" class="footer_link">Read more <i class="fal fa-long-arrow-right"></i></a>
+								</div>
+								<!-- footer info  end-->
+							</div>
+							<div class="col-md-4">
+								<!-- footer info   -->
+								<div class="footer-info">
+									<h4>Contact info</h4>
+									<!-- footer-contacts-->
+									<div class="footer-contacts fl-wrap">
+										<ul>
+											<li><i class="fal fa-phone"></i><span>Phone :</span><a href="#">+254 720012309</a></li>
+											<li><i class="fal fa-envelope"></i><span>Email :</span><a href="#">info@acuhomes.co.ke</a></li>
+											<li><i class="fal fa-map-marker"></i><span>Address:</span><a href="https://goo.gl/maps/dj5UaNJFkJ6rLNJy9" target="_blank">USA 27TH Brooklyn NY</a></li>
+										</ul>
+										<div class="fw_hours">
+											<span><strong>Monday - Friday:</strong> 8am - 6pm </span>
+											<span><strong>Saturday - Sunday:</strong> 9am - 3pm </span>
+										</div>
+									</div>
+									<!-- footer-contacts end -->
+								</div>
+								<!-- footer info  end-->
+							</div>
+							<div class="col-md-4">
+								<!-- footer info   -->
+								<div class="footer-info">
+									<h4>Our Services</h4>
+									<div class="footer-serv-holder">
+										<ul>
+											<li><a href="#">Design and Build</a></li>
+											<li><a href="#">Household Repairs</a></li>
+											<li><a href="#">Tiling and Painting</a></li>
+											<li><a href="#">Design and Build</a></li>
+											<li><a href="#">Architecture</a></li>
+											<li><a href="#">Interiror Design</a></li>
+											<li><a href="#">House Renovation</a></li>
+										</ul>
+									</div>
+								</div>
+								<!-- footer info  end-->
+							</div>
+						</div>
+					</div>
+					<div class="footer-bottom fl-wrap">
+						<a href="#" download class="dl-footer_btn color-bg"><span><i class="fal fa-file-pdf"></i></span>Company Presentation.PDF </a>
+						<a href="#" download class="dl-footer_btn color-bg"><span><i class="fal fa-cart-arrow-down"></i></span>Download Pricing.PDF </a>
+						<div class="footer-social">
+							<span class="footer-social-title">Follow us :</span>
+							<ul>
+								<li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+								<li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
+								<li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<!-- sub-footer -->
+				<div class="sub-footer fl-wrap">
+					<div class="container">
+						<div class="copy-right">&#169; <span>ACUHOMES</span> 2024. All rights reserved. </div>
+						<div class="to-top"> <i class="fas fa-caret-up"></i></div>
+						<div class="subfooter-nav">
+							<ul class="no-list-style">
+								<li><a href="#">Terms of use</a></li>
+								<li><a href="#">Privacy Policy</a></li>
+								<li><a href="#">News</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<!-- sub-footer end-->
+				<div class="footer-bg" data-ran="4"></div>
+			</footer>
+        </div>
+
+    </div>
+
+    <script src="{% static 'js/jquery.min.js' %}"></script>
+    <script src="{% static 'js/plugins.js' %}"></script>
+    <script src="{% static 'js/scripts.js' %}"></script>
+</body>
+</html>
