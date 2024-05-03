@@ -59,7 +59,7 @@ body {
 	width: 10px;
 	height: 10px;
 	float: right;
-	background:#F7B90F;
+	background:#dda15e;
 	margin-right: 5px;
     box-shadow: 0px 80px 20px rgba(0,0,0,0.5);
 }
@@ -143,7 +143,7 @@ p {
 	width: 620px;
 	min-height: 100vh;
 	position: relative;
-	background: linear-gradient(to bottom, #F7B90F, #ECB026);
+	background: linear-gradient(to bottom, #dda15e, #ECB026);
 	z-index: 2;
 	padding: 150px 50px 60px;
 	overflow: hidden;
@@ -151,12 +151,12 @@ p {
 .logo-holder {
 	position: absolute;
 	left: 50px;
-	top: 40px;
+	/* top: 40px; */
 	z-index: 20;
 }
 .logo-holder img {
 	width:auto;
-	height: 30px;
+	height: 70px;
 }
 .cs-content-wrapper {
 	position:relative;
@@ -230,7 +230,7 @@ p {
     border-radius: 0 4px 4px 0;
     z-index: 2;
 	font-weight: 600;
-    color: #F7B90F;
+    color: #dda15e;
 	background: #292929;
     height: 50px;
     line-height: 50px;
@@ -263,7 +263,7 @@ p {
 	height: 40px;
 	border-radius: 2px;
 	line-height: 40px;
-	color: #F7B90F;
+	color: #dda15e;
 	transition: all 200ms linear;
 }
 .cs-social li a:hover {
@@ -387,7 +387,7 @@ p {
 }
 .cs-countdown-item p {
     position: relative;
- 	color: #F7B90F;
+ 	color: #dda15e;
     font-size: 11px;
     font-weight: 600;
     letter-spacing: 2px;
@@ -401,7 +401,7 @@ p {
     z-index: 20;
 }
 .hero-slider-pagination .swiper-pagination-bullet {
-	background: #F7B90F;
+	background: #dda15e;
 	margin: 0 12px !important;
 	display: inline-block;
     width: 6px;
@@ -451,7 +451,7 @@ p {
 }
 .cs-contacts li span {
 	margin-right:12px;
-	color: #F7B90F;
+	color: #dda15e;
 }
 .cf_btn {
 	position: absolute;
@@ -464,7 +464,7 @@ p {
 	padding: 13px 30px;
 	cursor: pointer;
     font-weight: 600;
-    color: #F7B90F;
+    color: #dda15e;
 	font-size: 10px;
 	text-transform: uppercase;
 	transition: all 100ms linear;
@@ -565,7 +565,7 @@ p {
 	transition: all 200ms linear;
 }
 .close-contact-form:hover , .btn:hover {
-	background:#F7B90F; 
+	background:#dda15e; 
 }
 .contact-form-main {
 	padding: 100px 50px 20px;
@@ -618,7 +618,7 @@ p {
     font-size: 10px;
     margin-top: 15px;
 	background: #292929;
-	color: #F7B90F;
+	color: #dda15e;
 	outline: none;
     border: none;
     cursor: pointer;

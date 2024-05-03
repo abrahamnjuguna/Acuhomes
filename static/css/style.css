@@ -345,8 +345,8 @@ blockquote p {
 	float:left;
 	position:relative;
 	z-index:21;
-	height: 25px;
-	top:20px;
+	height: 70px;
+	/* top:20px; */
 }
 .logo-holder img {
 	width: auto;
@@ -3394,7 +3394,7 @@ footer.main-footer{
 	right: 0;
 	bottom: 0;
 	top: 60%;
-	background: #fff;
+	background: #252422;
 }
 .main-section_text-block {
 	margin-bottom: 40px;
@@ -6605,7 +6605,7 @@ h4.cart-title span {
 .inline-filter .gallery-filters a.gallery-filter-active {
 	background: #292929;
 	border-color: transparent;
-	color: #F7B90F
+	color: #dda15e
 }
 .four-column .gallery-item {
     width: 33.3%;
@@ -6628,8 +6628,8 @@ h4.cart-title span {
     right: 69px;
 }
 .logo-holder {
-    height: 20px;
-    top: 23px;
+    height: 70px;
+    /* top: 23px; */
 	margin-left: 10px;
 }
 .sub-footer {
@@ -6769,8 +6769,8 @@ h4.cart-title span {
     right: 59px;
 }
 .logo-holder {
-    height: 15px;
-    top: 20px;
+    height: 70px;
+    /* top: 20px; */
 	margin-left: 5px;
 }
 .tc-button {
