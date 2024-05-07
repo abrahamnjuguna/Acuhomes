@@ -62,7 +62,7 @@
 			<div class="header-inner fl-wrap">
 				<div class="container">
 					<!-- logo holder  -->
-					<a href="#" class="logo-holder"><img src="static/images/logo.png" alt=""></a>
+					<a href="#" class="logo-holder"><img src="{% static 'images/logo.png' %}" alt=""></a>
 
 					
 					<div class="search_btn htact show_search-btn"><i class="far fa-search"></i> <span class="header-tooltip">Search</span></div>
@@ -90,11 +90,11 @@
 					<div class="nav-holder main-menu">
 						<nav>
 							<ul>
-								<li><a href="#" class="act-link">Home</a></li>
-                                <li><a href="about.html">About</a></li>
-								<li><a href="services.html">Services</a></li>
+								<li><a href="{% url 'home' %}" class="act-link">Home</a></li>
+                                <li><a href="{% url 'about' %}">About</a></li>
+								<li><a href="#">Services</a></li>
 								<li><a href="#">Projects</a></li>
-								<li><a href="contact.html">Contact</a></li>
+								<li><a href="#">Contact</a></li>
 							</ul>
 						</nav>
 					</div>
