@@ -80,3 +80,14 @@ class Expert(models.Model):
 
     def __str__(self):
         return f"{self.first_name} {self.last_name}"
+
+
+class Service(models.Model):
+    title = models.CharField(max_length=100)
+    description = models.TextField()
+    banner = models.ImageField(upload_to='service_banners/')
+    # Additional fields for more information about the service
+    icon = models.ImageField(upload_to='service_icons/', blank=True, null=True)
+
+    def __str__(self):
+        return self.title
