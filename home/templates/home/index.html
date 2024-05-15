@@ -138,86 +138,32 @@
         <div class="cards-wrap fl-wrap">
             <div class="row">
                 <!--card item -->
-                <div class="col-md-4">
-                    <a class="content-inner fl-wrap" href="#">
-                        <div class="content-front">
-                            <div class="cf-inner">
-                                <div class="inner">
-                                    <div class="dec-icon">
-                                        <i class="fal fa-tools"></i>
+                {% for service in services %}
+                    <div class="col-md-4">
+                        <a class="content-inner fl-wrap" href="#">
+                            <div class="content-front">
+                                <div class="cf-inner">
+                                    <div class="inner">
+                                        <div class="dec-icon">
+                                            <i class="fal fa-tools"></i>
+                                        </div>
+                                        <h2>{{service.title}}</h2>
+                                        <p>{{service.description}}</p>
                                     </div>
-                                    <h2>Real Estate Construction</h2>
-                                    <p>"Experience excellence in home construction with Acuhomes. Our dedicated team transforms 
-                                        architectural dreams into reality, ensuring precision and quality in every detail. 
-                                        Trust us to build your perfect home</p>
+                                    <div class="serv-num">01.</div>
                                 </div>
-                                <div class="serv-num">01.</div>
                             </div>
-                        </div>
-                        <div class="content-back">
-                            <div class="bg " data-bg="static/images/services/services_property.jpg"></div>
-                            <div class="overlay"></div>
-                            <div class="inner">
-                                <span class="cf-inner_title color-bg">Read more</span>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <!--card item end -->
-                <!--card item -->
-                <div class="col-md-4">
-                    <a class="content-inner fl-wrap" href="#">
-                        <div class="content-front">
-                            <div class="cf-inner">
+                            <div class="content-back">
+                                <div class="bg " data-bg="{{service.banner.url}}"></div>
+                                <div class="overlay"></div>
                                 <div class="inner">
-                                    <div class="dec-icon">
-                                        <i class="fal fa-truck-plow"></i>
-                                    </div>
-                                    <h2>Property Management</h2>
-                                    <p>Elevate your property investment with Acuhomes' Property Management service. 
-                                        We handle every aspect of property care with precision and expertise, 
-                                        ensuring optimal returns and tenant satisfaction.</p>
+                                    <span class="cf-inner_title color-bg">Read more</span>
                                 </div>
-                                <div class="serv-num">02.</div>
                             </div>
-                        </div>
-                        <div class="content-back">
-                            <div class="bg " data-bg="static/images/services/services_real_estate.jpeg"></div>
-                            <div class="overlay"></div>
-                            <div class="inner">
-                                <span class="cf-inner_title color-bg">Read more</span>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <!--card item end -->
-                <!--card item -->
-                <div class="col-md-4">
-                    <a class="content-inner fl-wrap" href="#">
-                        <div class="content-front">
-                            <div class="cf-inner">
-                                <div class="inner">
-                                    <div class="dec-icon">
-                                        <i class="fal fa-pencil-ruler"></i>
-                                    </div>
-                                    <h2>Sales, & Business Consultation</h2>
-                                    <p>Unlock growth opportunities with Acuhomes' Sales & Business Consultation service. 
-                                    Our expert advisors provide tailored solutions to enhance property sales and optimize 
-                                    business strategies.Trust us to drive success.</p>
-                                </div>
-                                <div class="serv-num">03.</div>
-                            </div>
-                        </div>
-                        <div class="content-back">
-                            <div class="bg " data-bg="static/images/services/3.jpg"></div>
-                            <div class="overlay"></div>
-                            <div class="inner">
-                                <span class="cf-inner_title color-bg">Read more</span>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <!--card item end -->
+                        </a>
+                    </div>
+                {% endfor %}
+
             </div>
         </div>
     </div>
@@ -230,7 +176,7 @@
             <div class="half-carousel-title-item fl-wrap">
                 <h2>Our Lastes Projects</h2>
                 <h5>Uncover Spectacular Spaces Crafted Just for You, Where Imagination Meets Reality, and Every Detail Tells a Story.</h5>
-                <a href="#" class="hc_btn color-bg"><span>View all Projects</span></a>
+                <a href="{% url 'portfolio' %}" class="hc_btn color-bg"><span>View all Projects</span></a>
             </div>
             <div class="sec-dec"></div>
         </div>
@@ -248,7 +194,7 @@
                                     <div class="grid-det_category"><a href="#">{{project.contractor}}</a></div>
                                     <div class="hc-counter color-bg">{{project.id}}</div>
                                     <div class="half-carousel-content">
-                                        <h3><a href="#">{{project.title}}</a></h3>
+                                        <h3><a href="{% url 'project_details' project.id %}">{{project.title}}</a></h3>
                                         <p>{{project.sub_title}}</p>
                                     </div>
                                 </div>

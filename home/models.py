@@ -3,6 +3,14 @@ from django.core.validators import FileExtensionValidator
 from random import sample
 
 # Create your models here.
+
+class ProjectCategory(models.Model):
+    name = models.CharField(max_length=50, unique=True)
+
+    def __str__(self):
+        return self.name
+
+
 class Project(models.Model):
     STATUS_CHOICES = [
         ('planned', 'Planned'),
@@ -14,6 +22,7 @@ class Project(models.Model):
     title = models.CharField(max_length=100)
     sub_title = models.CharField(max_length=150, blank=True, null=True)
     description = models.TextField()
+    category = models.ForeignKey(ProjectCategory, on_delete=models.PROTECT, null=True)
     poster = models.ImageField(upload_to='project_poster_images/', 
                                validators=[FileExtensionValidator(['jpg', 'jpeg', 'png'])], 
                                blank=True, null=True)
@@ -45,7 +54,6 @@ class Project(models.Model):
 
         return random_projects
 
-    
 
 
 class ProjectImage(models.Model):

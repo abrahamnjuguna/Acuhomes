@@ -1,0 +1,152 @@
+{% extends 'home/base/base.html' %}
+{% load static %}
+{% block content %}
+<section class="no-padding" data-scrollax-parent="true">
+    <div class="parallax-inner page-title-wrap">
+        <div class="bg" data-bg="{% static 'images/bg/34.jpg' %}" data-scrollax="properties: { translateY: '40%' }"></div>
+        <div class="parallax-wrap">
+            <div class="container">
+                <div class="page-title">
+                    <h3>Our Contacts</h3>
+                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                </div>
+                <div class="hero-scroll-down-notifer  ">
+                    <div class="scroll-down-wrap ">
+                        <div class="mousey">
+                            <div class="scroller color-bg"></div>
+                        </div>
+                    </div>
+                    <i class="far fa-angle-down"></i>
+                </div>
+                <div class="pw_dec"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="breadcrumbs fl-wrap">
+    <div class="container">
+        <div class="breadcrumbs-list">
+            <a href="#">Home</a><a href="#">Pages</a> <span>Contacts</span>
+        </div>
+    </div>
+</div>
+
+<section class="gray-bg small-top_padding stp-bot">
+    <div class="hex-bg"><span class="hex hex1"></span><span class="hex hex2"></span><span class="hex hex3"></span></div>
+    <div class="container">
+        <div class="row">
+            <!--card-item -->
+            <div class="col-md-4">
+                <div class="card-item fl-wrap">
+                    <i class="fal fa-envelope"></i>
+                    <span class="card-item_num">01.</span>
+                    <h4>Our Mails</h4>
+                    <p>lorna@acuhomes.co.ke,&nbsp;lngathage@gmail.com, &nbsp;info@acuhomes.co.ke </p>
+                    <!-- <a href="#"">lorna@acuhomes.co.ke</a>
+                    <a href="#"">lngathage@gmail.com</a>
+                    <a href="#"">info@acuhomes.co.ke <br></a>
+                    <br> -->
+                </div>
+            </div>
+            <!--card-item end -->
+            <!--card-item -->
+            <div class="col-md-4">
+                <div class="card-item fl-wrap">
+                    <i class="fal fa-phone-rotary"></i>
+                    <span class="card-item_num">02.</span>
+                    <h4>Our Phones </h4>
+                    <p>(+254) 722-665-645 , &nbsp;(+254) 720-012-309, &nbsp;(+254) 703-133-371</p>
+                    <!-- <a href="#" class="card-link">+7(111)123456789</a>
+                    <a href="#" class="card-link">+3(333)987654321</a> -->
+                </div>
+            </div>
+            <!--card-item end -->
+            <!--card-item -->
+            <div class="col-md-4">
+                <div class="card-item fl-wrap">
+                    <i class="fal fa-map-marked"></i>
+                    <span class="card-item_num">03.</span>
+                    <h4>Our Adress </h4>
+                    <p>Laiboni Close 14, North Nkoroi Rd, Ongata Rongai</p>
+                    <!-- <a href="#" class="card-link">USA 27TH Brooklyn NY</a> -->
+                </div>
+            </div>
+            <!--card-item end -->
+        </div>
+        <div class="contacts-opt fl-wrap">
+            <div class="contact-social">
+                <span class="cs-title">Find us on: </span>
+                <ul>
+                    <li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="#" target="_blank"><i class="fab fa-vk"></i></a></li>
+                </ul>
+            </div>
+            <a href="#" class="btn   float-btn   cf_btn"><i class="fas fa-caret-right"></i><span>Write Message</span></a>
+            <div class="contact-notifer">We will try to answer the letter within a short time.</div>
+        </div>
+        <div class="map-links_title">Location of our offices:</div>
+        <div class="map-links_tabs">
+            <a class="map-link ml_act" href="#"><span>01.</span> North Nkoroi Rd, Ongata Rongai</a>
+            
+        </div>
+        <div class="map-container mapC_vis">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.5700165659237!2d36.683419175756676!3d-1.4332849358060764!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f01000c2d4945%3A0xb824b2ba3bcffb74!2sNorth%20Nkoroi%20court!5e0!3m2!1sen!2ske!4v1715191279458!5m2!1sen!2ske" width="1500" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="scrollContorl"></div>
+        </div>
+    </div>
+</section>
+
+<div class="contact-form-wrap">
+    <div class="contact-form-container">
+        <div class="contact-form-main fl-wrap">
+            <div class="contact-form-header">
+                <h4>Get In Touch</h4>
+                <span class="close-contact-form"><i class="fas fa-times"></i></span>
+            </div>
+            <div id="contact-form" class="contact-form fl-wrap">
+                <div id="message"></div>
+                <form  class="custom-form" action="http://theroof.kwst.net/php/contact.php" name="contactform" id="contactform">
+                    <fieldset>
+
+                        <input type="text" name="name" id="name" placeholder="Your Name *" value=""/>
+
+                        <input type="text"  name="email" id="email" placeholder="Email Address*" value=""/>
+                        <textarea name="comments"  id="comments" cols="40" rows="3" placeholder="Your Message:"></textarea>
+                    </fieldset>
+                    <button class="btn float-btn" style="margin-top:25px;" id="submit"><i class="fas fa-caret-right"></i><span>Send Message</span></button>
+                </form>
+            </div>
+            <!-- contact form  end--> 					
+        </div>
+    </div>
+    <div class="contact-form-overlay"></div>
+</div>
+
+<section class="no-padding">
+    <div class="announcement color-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h3><span>Subscribe</span></h3>
+                    <div class="clearfix"></div>
+                    <p>Stay in the Loop with Acuhomes! Subscribe for Exclusive Updates and Exciting News Delivered Straight to Your Inbox.</p>
+                </div>
+                <div class="col-md-2"></div>
+                <div class="col-md-6">
+                    <div class="subcribe-form fl-wrap">
+                        <form id="subscribe" class="fl-wrap" method="POST" action="{% url 'home' %}">
+                            {% csrf_token%}
+                            <input class="enteremail" name="email" id="subscribe-email" placeholder="Your Email" spellcheck="false" type="text">
+                            <button type="submit"  class="subscribe-button">Send </button>
+                            <label for="subscribe-email" class="subscribe-message"></label>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}

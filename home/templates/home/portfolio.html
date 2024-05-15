@@ -3,12 +3,12 @@
 {% block content %}
 <section class="no-padding" data-scrollax-parent="true">
     <div class="parallax-inner page-title-wrap">
-        <div class="bg" data-bg="{% static 'images/bg/17.jpg' %}" data-scrollax="properties: { translateY: '40%' }"></div>
+        <div class="bg" data-bg="{% static 'images/bg/6.jpg' %}" data-scrollax="properties: { translateY: '40%' }"></div>
         <div class="parallax-wrap">
             <div class="container">
                 <div class="page-title">
-                    <h3>Our Services</h3>
-                    <p>At AcuHomes, we deliver excellence in construction. With meticulous attention to detail, we craft residential and commercial spaces that exceed expectations.</p>
+                    <h3>Our Portfolio</h3>
+                    <p> Uncover Spectacular Spaces Crafted Just for You, Where Imagination Meets Reality, and Every Detail Tells a Story.</p>
                 </div>
                 <div class="hero-scroll-down-notifer  ">
                     <div class="scroll-down-wrap ">
@@ -23,11 +23,11 @@
         </div>
     </div>
 </section>
-<!-- section  end-->
+
 <div class="breadcrumbs fl-wrap">
     <div class="container">
         <div class="breadcrumbs-list">
-            <a href="#">Home</a><a href="#">Pages</a><span>Our Services</span>
+            <a href="#">Home</a> <a href="#">Portfolio</a> <span>Portfolio Grid</span>
         </div>
     </div>
 </div>
@@ -35,67 +35,66 @@
 <section class="gray-bg small-top_padding stp-bot">
     <div class="hex-bg"><span class="hex hex1"></span><span class="hex hex2"></span><span class="hex hex3"></span></div>
     <div class="container">
-        <div class="row fl-det">
+        <div class="row">
+            <!-- portfolio filters -->
+            <!-- sidebar -->
+            <div class="col-md-3">
+                <div class="widget-sidebar fix-bar">
+                    <h3>Portfolio Filters</h3>
+                    <div class="gallery-filters column-filters">
+                        <a href="#" class="gallery-filter gallery-filter-active" data-filter="*"><span>All</span></a>
+                        {% for category in project_categoriess %}
+                            <a href="#" class="gallery-filter " data-filter=".{{category.name}}"><span>{{category.name}}</span></a>
+                        {% endfor %}
+                    </div>
+                    <div class="count-folio cf-counter fl-wrap">
+                        <div class="num-album"></div>
+                        <div class="all-album"></div>
+                    </div>
+                </div>
+            </div>
+            <!-- sidebar end-->
+            <!-- portfolio filters end-->
             <div class="col-md-9">
-                <!--   row-->
-                <div class="row">
-                    {% for service in services %}
-                        <div class="col-md-6">
-                            <div class="det-box">
-                                <a href="#" class="det-box-media"><span>Details</span><img src="{{service.banner.url}}" alt="" class="respimg" style="height: 300px;"></a>
-                                <div class="det-box-ietm fl-wrap">
-                                    <h3><a href="#">{{service.title}}</a></h3>
-                                    <ul class="serv-list fl-wrap">
-                                        <li>Architecture</li>
-                                        <li>Design</li>
-                                        <li>Renovation</li>
-                                    </ul>
-                                    <p>{{service.description|truncatechars:300}}</p>
-                                    <a href="#" class="det-box-link">Read more</a>
-                                    <span class="serv_number">01.</span>
+                <!-- portfolio -->
+                <div class="gallery-items grid-small-pad two-column lightgallery vis-det sf_true" id="scroll-folio">
+                    <!-- 1 -->
+                    {% for project in projects %}
+                        <div class="gallery-item {{project.category}}">
+                            <div class="grid-item-holder">
+                                <div class="folio-img hov_zoom">
+                                    <span class="overlay"></span>
+                                    <img src="{{project.poster.url}}" alt="" style="height: 400px;">
+                                    <a href="{{project.poster.url}}" class="box-media-zoom   popup-image" ><i class="fas fa-search"></i></a>
+                                    <div class="grid-det_category"><a href="#">{{project.contractor}}</a></div>
+                                </div>
+                                <div class="grid-item">
+                                    <h3><a href="{% url 'project_details' project.id %}">{{project.title}}</a></h3>
+                                    <p>{{project.sub_title}}</p>
                                 </div>
                             </div>
                         </div>
                     {% endfor %}
                 </div>
-
+                <!-- portfolio end-->
                 <div class="clearfix"></div>
-                <div class="order-wrap fl-wrap">
+                <div class="order-wrap ord-wrp_mar fl-wrap">
                     <div class="row">
                         <div class="col-md-8">
                             <h4>Ready to order your project ?</h4>
                         </div>
                         <div class="col-md-4">
-                            <a href="#" class="btn   float-btn   cf_btn"">Get In Touch</a>
-                            <!-- <a href="#" class="btn   float-btn   cf_btn"><i class="fas fa-caret-right"></i><span>Write Message</span></a> -->
+                            <a href="contact.html" class="ord-link color-bg float-btn   cf_btn">Get In Touch</a>
                         </div>
                     </div>
                 </div>
             </div>
-            <!-- sidebar -->
-            <div class="col-md-3">
-                <div class="widget-sidebar fix-bar">
-                    <ul class="serv-nav">
-                        <li><a href="#" class="act-ser">All Services</a></li>
-                        {% for service in services %}
-                            <li><a href="#">{{service.title}}</a></li>
-                        {% endfor %}
-
-                    </ul>
-                    <h3>Brochures</h3>
-                    <ul class="btn-nav">
-                        <li><a href="#"><i class="fal fa-file-pdf"></i><span>Download .PDF</span></a></li>
-                        <li><a href="#"><i class="fal fa-file-word"></i><span>Download .DOC</span></a></li>
-                    </ul>
-                </div>
-            </div>
-            <!-- sidebar end-->
         </div>
     </div>
     <div class="limit-box"></div>
 </section>
-<!--services end-->
-<!-- section announcement-->
+
+
 <section class="no-padding">
     <div class="announcement color-bg">
         <div class="container">

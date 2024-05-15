@@ -16,6 +16,10 @@ class ProjectAdmin(admin.ModelAdmin):
     inlines = [ProjectImageInline]
 
 
+@admin.register(ProjectCategory)
+class ProjectCategoryAdmin(admin.ModelAdmin):
+    list_display = ('name',)
+
 @admin.register(Subscriber)
 class SubscriberAdmin(admin.ModelAdmin):
     list_display = ('email',)
@@ -25,3 +29,7 @@ class SubscriberAdmin(admin.ModelAdmin):
 class ExpertAdmin(admin.ModelAdmin):
     list_display = ('first_name', 'last_name', 'role', )
     search_fields = ('first_name',)
+
+@admin.register(Service)
+class ServiceAdmin(admin.ModelAdmin):
+    list_display = ('title',)
