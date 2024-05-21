@@ -1,0 +1,155 @@
+{% extends 'home/base/base.html' %}
+{% load static %}
+{% block content %}
+<section class="no-padding" data-scrollax-parent="true">
+    <div class="parallax-inner page-title-wrap">
+        <div class="bg" data-bg="{% static 'images/bg/34.jpg' %}" ></div>
+        <div class="parallax-wrap">
+            <div class="container">
+                <div class="page-title">
+                    <h3>About Our Company</h3>
+                    <p> Discover Our Journey: Where Passion, Innovation, and Dedication Merge to Shape Extraordinary Stories of Success and Impact</p>
+                </div>
+                <div class="hero-scroll-down-notifer  ">
+                    <div class="scroll-down-wrap ">
+                        <div class="mousey">
+                            <div class="scroller color-bg"></div>
+                        </div>
+                    </div>
+                    <i class="far fa-angle-down"></i>
+                </div>
+                <div class="pw_dec"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="breadcrumbs fl-wrap">
+    <div class="container">
+        <div class="breadcrumbs-list">
+            <a href="#">Home</a> <a href="#">Pages</a> <span>About Us</span>
+        </div>
+    </div>
+</div>
+
+<section class="gray-bg small-padding ">
+    <div class="container">
+        <div class="row">
+            <!--card-item -->
+            {% for service in services %}
+                <div class="col-md-4">
+                    <div class="card-item fl-wrap">
+                        <i class="fa fa-building"></i>
+                        <span class="card-item_num">{{service.id}}</span>
+                        <h4>{{service.title}}</h4>
+                        <p>{{service.description|truncatechars:70}}</p>
+                        <a href="#" class="card-link">Read more</a>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+    <div class="hex-bg"><span class="hex hex1"></span><span class="hex hex2"></span><span class="hex hex3"></span></div>
+    <div class="hex-bg hex-bg2"><span class="hex hex1"></span><span class="hex hex2"></span><span class="hex hex3"></span></div>
+</section>
+
+<section data-scrollax-parent="true">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5">
+                <div class="about-title fl-wrap">
+                    <h2 class="con-heading">Who we are</h2>
+                    <h4>Our Story</h4>
+                </div>
+                <div class="about-wrap">
+                    <p>Welcome to Acuhomes Limited, your premier destination for Real Estate construction, property management, sales, and business consultation. With a focus on delivering excellence, Acuhomes specializes in crafting top-tier homes, ranging from elegant mansions to charming bungalows.</p>
+                    <p>At Acuhomes, quality is more than a standard; it's our cornerstone. From inception to completion, we strive for perfection in every project. Discover the Acuhomes difference today and let us exceed your expectations</p>
+                    <a href="https://vimeo.com/134311183" class="btn image-popup  float-btn"><i class="fas fa-caret-right"></i><span>Our Story Video</span></a>
+                </div>
+            </div>
+            <div class="col-md-1"></div>
+            <div class="col-md-6">
+                <div class="about-img fl-wrap">
+                    <img src="{% static 'images/folio/6.jpg' %}" class="respimg" alt="">
+                    <!-- <div class="about-img-hotifer color-bg">
+                        <p>Your website is fully responsive so visitors can view your content from their choice of device.</p>
+                        <h4>Mark Antony</h4>
+                        <h5>TheRoof CEO</h5>
+                    </div> -->
+                    <div class="about-img-title" data-scrollax="properties: { translateY: '100px' }">Acuhomes</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="sec-dec"></div>
+</section>
+
+<section>
+    <div class="container">
+        <div class="section-title align-text">
+            <h2>Our Awesome Team</h2>
+            <br>
+            <!-- <h4>The Crew</h4> -->
+            <div class="dots-separator fl-wrap"><span></span></div>
+        </div>
+        <div class="ts_btn_wrap">
+            <div class="ts_btn ts-cont-prev"><i class="fas fa-caret-left"></i></div>
+            <div class="ts_btn ts-cont-next"><i class="fas fa-caret-right"></i></div>
+        </div>
+        <div class="team-slider fl-wrap">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <!-- team-item -->
+                    {% for expert in experts %}
+                        <div class="swiper-slide">
+                            <div class="team-item fl-wrap">
+                                <a href="#" class="det-box-media"><span>Details</span><img src="{{expert.image.url}}" alt="" class="respimg" style="height: 350px;"></a>
+                                <div class="team-content fl-wrap">
+                                    <h4><a href="#">{{expert.first_name}}{{expert.last_name}}</a></h4>
+                                    <h5>{{expert.role}}</h5>
+                                    <p>{{expert.bio|truncatechars:50}}</p>
+                                    <span class="tc_number">{{expert.id}}</span>
+                                </div>
+                                <div class="team-footer fl-wrap">
+                                    <ul class="team-social">
+                                        <li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                                        <li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                                        <li><a href="#" target="_blank"><i class="fab fa-vk"></i></a></li>
+                                    </ul>
+                                    <a href="#" class="tf-btn">View Details <i class="fas fa-caret-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="no-padding">
+    <div class="announcement color-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h3><span>Subscribe</span></h3>
+                    <div class="clearfix"></div>
+                    <p>Stay in the Loop with Acuhomes! Subscribe for Exclusive Updates and Exciting News Delivered Straight to Your Inbox.</p>
+                </div>
+                <div class="col-md-2"></div>
+                <div class="col-md-6">
+                    <div class="subcribe-form fl-wrap">
+                        <form id="subscribe" class="fl-wrap" method="POST" action="{% url 'home' %}">
+                            {% csrf_token%}
+                            <input class="enteremail" name="email" id="subscribe-email" placeholder="Your Email" spellcheck="false" type="text">
+                            <button type="submit"  class="subscribe-button">Send </button>
+                            <label for="subscribe-email" class="subscribe-message"></label>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}

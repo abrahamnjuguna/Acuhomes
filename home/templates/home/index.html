@@ -1,0 +1,362 @@
+{% extends 'home/base/base.html' %}
+{% block content %}
+<section class="no-padding" data-scrollax-parent="true">
+    <div class="hero-wrap hero-wrap_custom hero-wrap_custom2 fl-wrap darkbg_2">
+        <!--slideshow-container-->
+        <div class="slideshow-container">
+            <div class="slideshow-container_wrap fl-wrap full-height">
+                <div class="swiper-container full-height">
+                    <div class="swiper-wrapper">
+                        <!--ms_item-->
+                        <div class="swiper-slide">
+                            <div class="slideshow-item   fl-wrap">
+                                <div class="bg  " data-bg="static/images/bg/hero_section_1.jpg"></div>
+                            </div>
+                        </div>
+                        <!--ms_item end-->
+                        <!--ms_item-->
+                        <div class="swiper-slide ">
+                            <div class="slideshow-item fl-wrap">
+                                <div class="bg  " data-bg="static/images/bg/hero_section_2.jpg"></div>
+                            </div>
+                        </div>
+                        <!--ms_item end-->
+                        <!--ms_item-->
+                        <div class="swiper-slide">
+                            <div class="slideshow-item fl-wrap">
+                                <div class="bg  " data-bg="static/images/bg/hero_section_3.jpg"></div>
+                            </div>
+                        </div>
+                        <!--ms_item end-->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--slideshow-container end-->
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="hero-wrap-title_item hero-wrap_custom_title  fl-wrap">
+                <h3>Guaranteed high quality</h3>
+                <h2>Welcome To Acuhomes - <br> <span>Construction Services</span> <br> Company </h2>
+                <div class="clearfix"></div>
+                <h4>Building your dream with expertise and passion - Superior construction for an exceptional life</h4>
+                <div class="clearfix"></div>
+                <a href="#s" class="hc_btn custom-scroll-link color-bg"><span>Start to Explore</span></a>
+            </div>
+            <div class="hero-scroll-down-notifer  ">
+                <div class="scroll-down-wrap ">
+                    <div class="mousey">
+                        <div class="scroller color-bg"></div>
+                    </div>
+                </div>
+                <i class="far fa-angle-down"></i>
+            </div>
+        </div>
+        <!--hero_promo-wrap-->
+        <div class="hero_promo-wrap bot-element2 mob-hid">
+            <div class="hero_promo-button">
+                <div class="hp_popup" id="html5-videos" data-html="#video3"><i class="fas fa-play"></i></div>
+            </div>
+            <div class="hero_promo-title">
+                <h4>View Promo Video</h4>
+            </div>
+        </div>
+        <!-- Hidden video div -->
+        <div style="display:none;" id="video3">
+            <video class="lg-video-object lg-html5" controls preload="none">
+                <source src="static/video/1.mp4" type="video/mp4">
+            </video>
+        </div>
+        <!--hero_promo-wrap end-->
+        <div class="hero-dec_top"></div>
+        <div class="hero-slider-pagination hsp2"></div>
+    </div>
+</section>
+
+<section data-scrollax-parent="true">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5">
+                <div class="about-title fl-wrap">
+                    <!-- <h4>Our Story</h4> -->
+                    <h2 class="con-heading">Who we are</h2>
+                </div>
+                <div class="about-wrap">
+                    <p>Welcome to Acuhomes Limited, your premier destination for Real Estate construction, property management, sales, and business consultation. With a focus on delivering excellence, Acuhomes specializes in crafting top-tier homes, ranging from elegant mansions to charming bungalows.</p>
+                    <p>At Acuhomes, quality is more than a standard; it's our cornerstone. From inception to completion, we strive for perfection in every project. Discover the Acuhomes difference today and let us exceed your expectations</p>
+                    <!-- <p>What sets us apart is our unwavering commitment to quality and customer satisfaction. At Acuhomes, we thrive on client referrals, a testament to our dedication to delivering exceptional results. Our team of professionals, known as 'Fundistore', is renowned for their competence, efficiency, and dedication to excellence.</p> -->
+                    <a href="{% url 'about' %}" class="btn float-btn"><i class="fas fa-caret-right"></i><span>Read More About Us</span></a>
+                </div>
+            </div>
+            <div class="col-md-1"></div>
+            <div class="col-md-6">
+                <div class="about-img fl-wrap">
+                    <img src="static/images/folio/about_us_banner.jpg" class="respimg" alt="">
+                    <div class="about-img-title ait_2 color-bg" data-scrollax="properties: { translateY: '100px' }">Acuhomes</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="sq-secdec"></div>
+</section>
+
+
+<section class="no-padding darkbg_2">
+    <div class="notifer-block fl-wrap">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7">
+                    <h4><span>You need more information about our services and company capabilities?</span></h4>
+                </div>
+                <div class="col-md-5">
+                    <a href="{% url 'services' %}" class="nb_btn color-bg">View All Services</a>
+                </div>
+            </div>
+        </div>
+        <div class="hero-canvas-wrap">
+            <div class="dots gallery__dots" data-dots=""></div>
+        </div>
+    </div>
+</section>
+
+
+<section class="gray-bg small-padding half-bg_dec">
+    <div class="container">
+        <div class="main-section_text-block fl-wrap">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2 class="con-heading">What We Do</h2>
+                    <h4>We Offer Smarter & More Affordable Access To <br> Construction Services and Equipment. <br> We Are Acuhomes.</h4>
+                </div>
+                <div class="col-md-1"></div>
+                <div class="col-md-5">
+                    <p>At AcuHomes, we deliver excellence in construction. With meticulous attention to detail, we craft residential and commercial spaces that exceed expectations.</p>
+                    <p>From design to execution, trust us to bring your vision to life with precision and innovation.</p>
+                </div>
+            </div>
+        </div>
+        <div class="cards-wrap fl-wrap">
+            <div class="row">
+                <!--card item -->
+                {% for service in services %}
+                    <div class="col-md-4">
+                        <a class="content-inner fl-wrap" href="#">
+                            <div class="content-front">
+                                <div class="cf-inner">
+                                    <div class="inner">
+                                        <div class="dec-icon">
+                                            <i class="fal fa-tools"></i>
+                                        </div>
+                                        <h2>{{service.title}}</h2>
+                                        <p>{{service.description}}</p>
+                                    </div>
+                                    <div class="serv-num">01.</div>
+                                </div>
+                            </div>
+                            <div class="content-back">
+                                <div class="bg " data-bg="{{service.banner.url}}"></div>
+                                <div class="overlay"></div>
+                                <div class="inner">
+                                    <span class="cf-inner_title color-bg">Read more</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                {% endfor %}
+
+            </div>
+        </div>
+    </div>
+    <div class="hex-bg"><span class="hex hex1"></span><span class="hex hex2"></span><span class="hex hex3"></span></div>
+</section>
+
+<section class="no-padding">
+    <div class="half-carousel-wrap">
+        <div class="half-carousel-title darkbg_2">
+            <div class="half-carousel-title-item fl-wrap">
+                <h2>Our Lastes Projects</h2>
+                <h5>Uncover Spectacular Spaces Crafted Just for You, Where Imagination Meets Reality, and Every Detail Tells a Story.</h5>
+                <a href="{% url 'portfolio' %}" class="hc_btn color-bg"><span>View all Projects</span></a>
+            </div>
+            <div class="sec-dec"></div>
+        </div>
+        <div class="half-carousel-conatiner">
+            <div class="half-carousel fl-wrap full-height">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <!--half-carousel-item   -->
+                        {% for project in projects %}
+                            <div class="swiper-slide">
+                                <div class="half-carousel-item fl-wrap">
+                                    <div class="bg-wrap bg-parallax-wrap-gradien">
+                                        <div class="bg" data-bg="{{project.poster.url}}" data-swiper-parallax="10%"></div>
+                                    </div>
+                                    <div class="grid-det_category"><a href="#">{{project.contractor}}</a></div>
+                                    <div class="hc-counter color-bg">{{project.id}}</div>
+                                    <div class="half-carousel-content">
+                                        <h3><a href="{% url 'project_details' project.id %}">{{project.title}}</a></h3>
+                                        <p>{{project.sub_title}}</p>
+                                    </div>
+                                </div>
+                            </div>
+                        {% endfor %}
+
+                    </div>
+                </div>
+            </div>
+            <div class="hcw_btn hcw-cont-prev"><i class="fas fa-caret-left"></i></div>
+            <div class="hcw_btn hcw-cont-next"><i class="fas fa-caret-right"></i></div>
+        </div>
+    </div>
+</section>
+
+<section class="gray-bg small-top_padding">
+    <div class="hex-bg"><span class="hex hex1"></span><span class="hex hex2"></span><span class="hex hex3"></span></div>
+    <div class="hex-bg hex-bg2"><span class="hex hex1"></span><span class="hex hex2"></span><span class="hex hex3"></span></div>
+    <div class="container">
+        <div class="section-title">
+            <h4>What said about us</h4>
+            <h2>Customer Reviews</h2>
+            <div class="dots-separator fl-wrap"><span></span></div>
+        </div>
+    </div>
+    <div class="clearfix"></div>
+    <div class="testimonilas-carousel-wrap fl-wrap">
+        <div class="tc-button tc-button-next"><i class="fas fa-caret-right"></i></div>
+        <div class="tc-button tc-button-prev"><i class="fas fa-caret-left"></i></div>
+        <div class="testimonilas-carousel">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <!--testi-item-->
+                    <div class="swiper-slide">
+                        <div class="testi-item fl-wrap">
+                            <div class="testi-avatar"><img src="static/images/avatar/2.jpg" alt=""></div>
+                            <div class="testimonilas-text fl-wrap">
+                                <h3>Andy Dimasky <span>Happy Client</span></h3>
+                                <div class="star-rating" data-starrating="5"> </div>
+                                <p>"Vestibulum orci felis, ullamcorper non condimentum non, ultrices ac nunc. Mauris non ligula suscipit, vulputate mi accumsan, dapibus felis. Nullam sed sapien dui. Nulla auctor sit amet sem non porta. "</p>
+                                <a href="#" class="testim-link color-bg" tabindex="0">Via Facebook</a>
+                                <span class="testi-number">01.</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!--testi-item end-->
+                    <!--testi-item-->
+                    <div class="swiper-slide">
+                        <div class="testi-item fl-wrap">
+                            <div class="testi-avatar"><img src="static/images/avatar/3.jpg" alt=""></div>
+                            <div class="testimonilas-text fl-wrap">
+                                <h3>Frank Dellov <span>Happy Client</span></h3>
+                                <div class="star-rating" data-starrating="4"> </div>
+                                <p>"Vestibulum orci felis, ullamcorper non condimentum non, ultrices ac nunc. Mauris non ligula suscipit, vulputate mi accumsan, dapibus felis. Nullam sed sapien dui. Nulla auctor sit amet sem non porta. "</p>
+                                <a href="#" class="testim-link color-bg" tabindex="0">Via Facebook</a>
+                                <span class="testi-number">02.</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!--testi-item end-->
+                    <!--testi-item-->
+                    <div class="swiper-slide">
+                        <div class="testi-item fl-wrap">
+                            <div class="testi-avatar"><img src="static/images/avatar/4.jpg" alt=""></div>
+                            <div class="testimonilas-text fl-wrap">
+                                <h3>Centa Simpson <span>Happy Client</span></h3>
+                                <div class="star-rating" data-starrating="5"> </div>
+                                <p>"Vestibulum orci felis, ullamcorper non condimentum non, ultrices ac nunc. Mauris non ligula suscipit, vulputate mi accumsan, dapibus felis. Nullam sed sapien dui. Nulla auctor sit amet sem non porta. "</p>
+                                <a href="#" class="testim-link color-bg" tabindex="0">Via Facebook</a>
+                                <span class="testi-number">03.</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!--testi-item end-->
+                    <!--testi-item-->
+                    <div class="swiper-slide">
+                        <div class="testi-item fl-wrap">
+                            <div class="testi-avatar"><img src="static/images/avatar/5.jpg" alt=""></div>
+                            <div class="testimonilas-text fl-wrap">
+                                <h3>Nicolo Svensky <span>Happy Client</span></h3>
+                                <div class="star-rating" data-starrating="5"> </div>
+                                <p>"Vestibulum orci felis, ullamcorper non condimentum non, ultrices ac nunc. Mauris non ligula suscipit, vulputate mi accumsan, dapibus felis. Nullam sed sapien dui. Nulla auctor sit amet sem non porta. "</p>
+                                <a href="#" class="testim-link color-bg" tabindex="0">Via Facebook</a>
+                                <span class="testi-number">04.</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!--testi-item end-->
+                </div>
+            </div>
+        </div>
+        <div class="tc-pagination"></div>
+    </div>
+</section>
+
+<section class="no-padding">
+    <div class="announcement color-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h3><span>Subscribe</span></h3>
+                    <div class="clearfix"></div>
+                    <p>Stay in the Loop with Acuhomes! Subscribe for Exclusive Updates and Exciting News Delivered Straight to Your Inbox.</p>
+                </div>
+                <div class="col-md-2"></div>
+                <div class="col-md-6">
+                    <div class="subcribe-form fl-wrap">
+                        <form id="subscribe" class="fl-wrap" method="POST">
+                            {% csrf_token%}
+                            <input class="enteremail" name="email" id="subscribe-email" placeholder="Your Email" spellcheck="false" type="text">
+                            <button type="submit"  class="subscribe-button">Send </button>
+                            <label for="subscribe-email" class="subscribe-message"></label>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="gray-bg small-top_padding stp-bot">
+    <div class="hex-bg"><span class="hex hex1"></span><span class="hex hex2"></span><span class="hex hex3"></span></div>
+    <div class="container">
+        <div class="row">
+            <!--card-item -->
+            <div class="col-md-4">
+                <div class="card-item fl-wrap">
+                    <i class="fal fa-envelope"></i>
+                    <span class="card-item_num">01.</span>
+                    <h4>Our Mails</h4>
+                    <p>lorna@acuhomes.co.ke,&nbsp;lngathage@gmail.com, &nbsp;info@acuhomes.co.ke </p>
+                    <!-- <a href="#"">lorna@acuhomes.co.ke</a>
+                    <a href="#"">lngathage@gmail.com</a>
+                    <a href="#"">info@acuhomes.co.ke <br></a>
+                    <br> -->
+                </div>
+            </div>
+            <!--card-item end -->
+            <!--card-item -->
+            <div class="col-md-4">
+                <div class="card-item fl-wrap">
+                    <i class="fal fa-phone-rotary"></i>
+                    <span class="card-item_num">02.</span>
+                    <h4>Our Phones </h4>
+                    <p>(+254) 722-665-645 , &nbsp;(+254) 720-012-309, &nbsp;(+254) 703-133-371</p>
+                    <!-- <a href="#" class="card-link">+7(111)123456789</a>
+                    <a href="#" class="card-link">+3(333)987654321</a> -->
+                </div>
+            </div>
+            <!--card-item end -->
+            <!--card-item -->
+            <div class="col-md-4">
+                <div class="card-item fl-wrap">
+                    <i class="fal fa-map-marked"></i>
+                    <span class="card-item_num">03.</span>
+                    <h4>Our Adress </h4>
+                    <p>Laiboni Close 14, North Nkoroi Rd, Ongata Rongai</p>
+                    <!-- <a href="#" class="card-link">USA 27TH Brooklyn NY</a> -->
+                </div>
+            </div>
+            <!--card-item end -->
+        </div>
+    </div>
+</section>
+{% endblock %}

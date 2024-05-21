@@ -1,0 +1,149 @@
+{% extends 'home/base/base.html' %}
+{% load static %}
+{% block content %}
+<section class="no-padding" data-scrollax-parent="true">
+    <div class="parallax-inner page-title-wrap">
+        <div class="bg" data-bg="{% static 'images/bg/17.jpg' %}" data-scrollax="properties: { translateY: '40%' }"></div>
+        <div class="parallax-wrap">
+            <div class="container">
+                <div class="page-title">
+                    <h3>Our Services</h3>
+                    <p>At AcuHomes, we deliver excellence in construction. With meticulous attention to detail, we craft residential and commercial spaces that exceed expectations.</p>
+                </div>
+                <div class="hero-scroll-down-notifer  ">
+                    <div class="scroll-down-wrap ">
+                        <div class="mousey">
+                            <div class="scroller color-bg"></div>
+                        </div>
+                    </div>
+                    <i class="far fa-angle-down"></i>
+                </div>
+                <div class="pw_dec"></div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- section  end-->
+<div class="breadcrumbs fl-wrap">
+    <div class="container">
+        <div class="breadcrumbs-list">
+            <a href="#">Home</a><a href="#">Pages</a><span>Our Services</span>
+        </div>
+    </div>
+</div>
+
+<section class="gray-bg small-top_padding stp-bot">
+    <div class="hex-bg"><span class="hex hex1"></span><span class="hex hex2"></span><span class="hex hex3"></span></div>
+    <div class="container">
+        <div class="row fl-det">
+            <div class="col-md-9">
+                <!--   row-->
+                <div class="row">
+                    {% for service in services %}
+                        <div class="col-md-6">
+                            <div class="det-box">
+                                <a href="#" class="det-box-media"><span>Details</span><img src="{{service.banner.url}}" alt="" class="respimg" style="height: 300px;"></a>
+                                <div class="det-box-ietm fl-wrap">
+                                    <h3><a href="#">{{service.title}}</a></h3>
+                                    <ul class="serv-list fl-wrap">
+                                        <li>Architecture</li>
+                                        <li>Design</li>
+                                        <li>Renovation</li>
+                                    </ul>
+                                    <p>{{service.description|truncatechars:300}}</p>
+                                    <a href="#" class="det-box-link">Read more</a>
+                                    <span class="serv_number">01.</span>
+                                </div>
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
+
+                <div class="clearfix"></div>
+                <div class="order-wrap fl-wrap">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <h4>Ready to order your project ?</h4>
+                        </div>
+                        <div class="col-md-4">
+                            <a href="#" class="btn   float-btn   cf_btn"">Get In Touch</a>
+                            <!-- <a href="#" class="btn   float-btn   cf_btn"><i class="fas fa-caret-right"></i><span>Write Message</span></a> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- sidebar -->
+            <div class="col-md-3">
+                <div class="widget-sidebar fix-bar">
+                    <ul class="serv-nav">
+                        <li><a href="#" class="act-ser">All Services</a></li>
+                        {% for service in services %}
+                            <li><a href="#">{{service.title}}</a></li>
+                        {% endfor %}
+
+                    </ul>
+                    <h3>Brochures</h3>
+                    <ul class="btn-nav">
+                        <li><a href="#"><i class="fal fa-file-pdf"></i><span>Download .PDF</span></a></li>
+                        <li><a href="#"><i class="fal fa-file-word"></i><span>Download .DOC</span></a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- sidebar end-->
+        </div>
+    </div>
+    <div class="limit-box"></div>
+</section>
+<!--services end-->
+<!-- section announcement-->
+<section class="no-padding">
+    <div class="announcement color-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h3><span>Subscribe</span></h3>
+                    <div class="clearfix"></div>
+                    <p>Stay in the Loop with Acuhomes! Subscribe for Exclusive Updates and Exciting News Delivered Straight to Your Inbox.</p>
+                </div>
+                <div class="col-md-2"></div>
+                <div class="col-md-6">
+                    <div class="subcribe-form fl-wrap">
+                        <form id="subscribe" class="fl-wrap" method="POST" action="{% url 'home' %}">
+                            {% csrf_token%}
+                            <input class="enteremail" name="email" id="subscribe-email" placeholder="Your Email" spellcheck="false" type="text">
+                            <button type="submit"  class="subscribe-button">Send </button>
+                            <label for="subscribe-email" class="subscribe-message"></label>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="contact-form-wrap">
+    <div class="contact-form-container">
+        <div class="contact-form-main fl-wrap">
+            <div class="contact-form-header">
+                <h4>Get In Touch</h4>
+                <span class="close-contact-form"><i class="fas fa-times"></i></span>
+            </div>
+            <div id="contact-form" class="contact-form fl-wrap">
+                <div id="message"></div>
+                <form  class="custom-form" action="http://theroof.kwst.net/php/contact.php" name="contactform" id="contactform">
+                    <fieldset>
+
+                        <input type="text" name="name" id="name" placeholder="Your Name *" value=""/>
+
+                        <input type="text"  name="email" id="email" placeholder="Email Address*" value=""/>
+                        <textarea name="comments"  id="comments" cols="40" rows="3" placeholder="Your Message:"></textarea>
+                    </fieldset>
+                    <button class="btn float-btn" style="margin-top:25px;" id="submit"><i class="fas fa-caret-right"></i><span>Send Message</span></button>
+                </form>
+            </div>
+            <!-- contact form  end--> 					
+        </div>
+    </div>
+    <div class="contact-form-overlay"></div>
+</div>
+{% endblock %}
