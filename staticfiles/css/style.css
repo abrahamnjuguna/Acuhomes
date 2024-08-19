@@ -37,7 +37,7 @@ body{
 	padding: 0;
 	font-family: 'Poppins', sans-serif;
 	font-weight: 400;
-	font-size: 12px;
+	font-size: 15px;
 	color: #292929;
 	background:#292929;
 	height:100%;
@@ -49,7 +49,7 @@ body{
 /*--------------Typography--------------------------------------*/
 p {
 	text-align:left;
-	font-size:11px;
+	font-size:15px;
 	line-height:24px;
 	padding-bottom:10px;
 	font-weight: 500;
@@ -180,7 +180,7 @@ blockquote p {
 }
 .content-table table td, .content-table table th{
 	padding: 18px 30px;
-	font-size: 12px;
+	font-size: 15px;
 	line-height: 24px;
 	font-weight: 500;
 }
@@ -204,7 +204,7 @@ blockquote p {
 .btn{
 	float:left;
 	margin-top:10px;
-	font-size: 10px;
+	font-size: 12.5px;
 	color: #fff;
 	position: relative;
     max-width: 100%;
@@ -338,7 +338,7 @@ blockquote p {
 .top-bar-header-contact li a {
 	color:rgba(255,255,255,0.8);
 	font-weight: 500;
-	font-size: 10px;
+	font-size: 15px;
 	text-transform: uppercase
 }
 .logo-holder {
@@ -447,7 +447,7 @@ blockquote p {
 	float: right;
     position: relative;
     color: #292929;
-    font-size: 11px;
+    font-size:14px;
     font-weight: 700;
 	width: 180px;
     height: 70px;
@@ -457,7 +457,7 @@ blockquote p {
 }
 .header-btn i {
 	margin-left: 15px;
-	font-size: 16px;
+	font-size: 18px;
 	color: #fff;
 }
 .header-cart_wrap {
@@ -509,7 +509,7 @@ blockquote p {
 	float: right; 
 }
 .header-cart_wrap_total_item span  {
-	font-size: 16px;
+	font-size: 18px;
 	position: relative;
 	top: -2px;
 }
@@ -532,7 +532,7 @@ blockquote p {
 }
 .box-widget-content .widget-posts li:before {
 	content: counter(my-awesome-counter);
-	font-size: 10px;
+	font-size: 12.5px;
 	font-weight: 600;
 	position: absolute;
 	left: -20px;
@@ -569,7 +569,7 @@ blockquote p {
 	font-weight:700;
 	color:#000;
 	padding-top:3px;
-	font-size:11px;
+	font-size:14px;
 }
 .widget-posts-descr_calc  span{
 	padding:0 4px;
@@ -605,7 +605,7 @@ blockquote p {
 	background:#292929;
 	font-weight: 700;
     text-transform: uppercase;
-    font-size: 10px;
+    font-size: 12.5px;
 	transition: all .2s ease-in-out;
 }
 .header-cart_wrap_footer a:last-child {
@@ -634,7 +634,7 @@ blockquote p {
 	float: right;
 	color: rgba(255,255,255,0.8);
     font-weight: 500;
-    font-size: 10px;
+    font-size: 12.5px;
     text-transform: uppercase;
 	margin-right: 20px;
 	letter-spacing: 1px;
@@ -704,7 +704,7 @@ blockquote p {
 	line-height:70px;
     float: left;
     position: relative;
-    font-size: 10px;
+    font-size: 12.5px;
 	color:#fff;
 	border-bottom: 1px solid rgba(255,255,255,0.1);
 	border-right: 1px solid rgba(255,255,255,0.1);
@@ -811,8 +811,8 @@ blockquote p {
 	float: left;
 	padding: 5px 11px;
     color: #222;
-    font-size: 11px;
-    font-weight: 700;
+    font-size: 15px;
+    font-weight: 900;
     text-transform: uppercase;
     line-height: 25px;
     transition: all 100ms linear;
@@ -833,7 +833,7 @@ blockquote p {
 	width:100%;
 	text-align:left;
 	padding:2px 15px;
-	font-size: 11px;
+	font-size: 15px;
 	color: #fff;
 }
 .dark-header .nav-holder nav li ul a{
@@ -1011,7 +1011,7 @@ section.paralax-section .bg {
 .page-title p {
 	color:rgba(255,255,255,0.9);
 	max-width:450px;
-	font-size:11px;
+	font-size:15px;
 }
 .st-text {
 	margin-top: 50px;
@@ -1075,7 +1075,7 @@ section.paralax-section .bg {
 	position: relative;
 	top: 6px;
 	font-weight: 500;
-	font-size: 10px;
+	font-size: 12.5px;
 	letter-spacing:2px;
 	text-transform:uppercase;
 	color: #fff;
@@ -1223,7 +1223,7 @@ section.paralax-section .bg {
 .boxed-container-title h4 {
 	text-align: left;
 	font-weight: 600;
-	font-size: 10px;
+	font-size: 12.5px;
 	text-transform: uppercase;
 	padding-bottom: 10px;
 }
@@ -1274,7 +1274,7 @@ section.paralax-section  .boxed-container-wrap:hover .bg {
 	color: #fff;
 	font-weight: 600;
 	margin-top: 20px;
-	font-size: 11px;
+	font-size:14px;
 	letter-spacing: 2px;
 	text-transform: uppercase;
 }
@@ -1377,7 +1377,7 @@ section.paralax-section  .boxed-container-wrap:hover .bg {
 	z-index: 2;
 	height:50px;
 	line-height:50px;
-	font-size: 11px;
+	font-size:14px;
 	color: #fff;
 	font-weight: 600;
 	background: #333;
@@ -1399,7 +1399,7 @@ section.paralax-section  .boxed-container-wrap:hover .bg {
 	width:100%;
 	text-align:left;
 	color:#fff;
-	font-size:11px;
+	font-size:14px;
 	font-weight:400;
 }
 /*------ Footer ------------------------------------------------------*/
@@ -1513,7 +1513,7 @@ footer.main-footer{
     margin:0 0 10px 0;
     text-align: left;
     font-weight: 500;
-    font-size: 12px;
+    font-size: 15px;
     color: #fff;
 }
 .fw_hours span strong {
@@ -1530,7 +1530,7 @@ footer.main-footer{
 	float:left;
 	width:100%;
 	position:relative;
-	font-size: 12px;
+	font-size: 15px;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	text-align:left;
@@ -1559,7 +1559,7 @@ footer.main-footer{
 .footer-info p {
 	color:#fff;
 	font-weight: 400;
-	font-size: 11px;
+	font-size:14px;
 }
 .footer_link {
 	float: left;
@@ -1570,7 +1570,7 @@ footer.main-footer{
 }
 .footer_link i {
 	margin-left: 12px;
-	font-size: 10px;
+	font-size: 12.5px;
 }
 .footer_link:hover , .footer_link i {
 	color: #fff;
@@ -1580,7 +1580,7 @@ footer.main-footer{
 	width: 100%;
 	padding: 8px 0;
  
-	font-size: 12px;
+	font-size: 15px;
 	font-weight: 400;
 }
 .footer-contacts li a {
@@ -1610,7 +1610,7 @@ footer.main-footer{
     padding: 18px 50px 18px 50px;	
 	font-weight: 500;
 	top: -2px;
-	font-size: 10px;
+	font-size: 12.5px;
 	text-transform: uppercase;
 	margin-left: 24px;
 }
@@ -1651,7 +1651,7 @@ footer.main-footer{
 }
 .copy-right {
 	float:left;
-	font-size: 10px;
+	font-size: 12.5px;
 	letter-spacing: 1px;
 	text-transform: uppercase;
 	text-align:left;
@@ -1678,7 +1678,7 @@ footer.main-footer{
 }
 .subfooter-nav li a {
     font-weight: 500;
-    font-size: 12px;
+    font-size: 15px;
 }
 .subfooter-nav li a:hover {
 	color: #fff;
@@ -1783,7 +1783,7 @@ footer.main-footer{
 }
 .hero_promo-title {
 	float:left;
-	font-size: 10px;
+	font-size: 12.5px;
 	text-transform: uppercase;
 	color:#fff;
 	position:relative;
@@ -1864,7 +1864,7 @@ footer.main-footer{
 	padding-top: 10px;
 }
 .hero-wrap-title_item h4 {
-	font-size:11px;
+	font-size:14px;
 	text-align: left;
 	float: left;
 	max-width: 550px;
@@ -1874,7 +1874,7 @@ footer.main-footer{
 }
 .hero-wrap-title_item h3 {
 	text-transform: uppercase;
-	font-size: 14px;
+	font-size: 15px;
 	text-align: left;
 	font-weight: 700;
 	position: relative;
@@ -1918,7 +1918,7 @@ footer.main-footer{
 	cursor: pointer;
 	z-index: 10;
 	color: #fff;
-	font-size: 10px;
+	font-size: 12.5px;
 	border-radius: 2px;
 }
 .hsc_pp.auto_actslider i:before   {
@@ -2017,7 +2017,7 @@ footer.main-footer{
 	position:relative;
 	margin-bottom:12px;
 	text-align:left;
-	font-size:11px;
+	font-size:14px;
 	color:#fff;
 	font-weight:500;
 }
@@ -2071,7 +2071,7 @@ footer.main-footer{
 	left:50px;
     padding: 16px 45px 16px 70px;
     color: #666;
-    font-size: 11px;
+    font-size:14px;
     font-weight: 700;
     box-shadow: 0px 0px 0px 6px rgba(255,255,255,0.3);
 	z-index:10;
@@ -2127,7 +2127,7 @@ footer.main-footer{
 	line-height: 46px;
 	font-weight: 600;
 	text-transform: uppercase;
-	font-size: 10px;
+	font-size: 12.5px;
 	width: 150px;
 	background: #292929;
 	margin: -23px 0 0 -75px;
@@ -2173,7 +2173,7 @@ footer.main-footer{
 	float: left;
 	margin-right: 10px;
 	text-transform: uppercase;
-	font-size: 10px;
+	font-size: 12.5px;
 	color: #999;
 	font-weight: 600;
 	position: relative;
@@ -2182,7 +2182,7 @@ footer.main-footer{
 	float:left;
 	margin-top:12px;
 	padding: 10px 30px;
-	font-size: 10px;
+	font-size: 12.5px;
 	background: #454545;
 	position: relative;
 	z-index: 2;
@@ -2196,7 +2196,7 @@ footer.main-footer{
 	right: 30px;
 	z-index: 1;
 	bottom: 34px;
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 600;
 }
 .serv_number:before {
@@ -2230,7 +2230,7 @@ footer.main-footer{
 .accordion-lite-header {
 	cursor: pointer;
 	text-align: left;
-	font-size: 13px;
+	font-size: 15px;
 	font-weight: 600;
 }
 .accordion-lite-container {
@@ -2246,7 +2246,7 @@ footer.main-footer{
 	float: right;
 	position: relative;
 	top: 6px;
-	font-size: 10px;
+	font-size: 12.5px;
 }
 .accordion-lite-header.acc_open i:before {
 	content: "\f068";
@@ -2331,7 +2331,7 @@ footer.main-footer{
 .breadcrumbs-list a , .breadcrumbs-list span  {
     margin-right: 15px;
     padding-right: 20px;
-    font-size: 10px;
+    font-size: 15px;
     font-weight: 600;
     color: #666;
 	text-transform: uppercase;
@@ -2387,7 +2387,7 @@ footer.main-footer{
 	position: absolute;
 	top: 80px;
 	left: -120px;
-	font-size: 11px;
+	font-size:14px;
 	text-transform: uppercase;
 	z-index: 23;
 	color: rgba(255, 255, 255, 0.71);
@@ -2438,7 +2438,7 @@ footer.main-footer{
 }
 .about-img-hotifer p {
 	color: #292929;
-	font-size: 13px;
+	font-size: 15px;
 	margin-bottom: 10px;
 	text-align: left;
 	font-weight: 600;
@@ -2456,7 +2456,7 @@ footer.main-footer{
     position: relative;
     margin-top: 6px;
     color: rgba(255, 255, 255, 0.51);
-    font-size: 10px;
+    font-size: 12.5px;
     font-weight: 500;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -2494,7 +2494,7 @@ footer.main-footer{
 	position: absolute;
 	left:44px;
 	top: 42px;
-	font-size: 12px;
+	font-size: 15px;
 	font-weight: 100;
 	color: #fff;
 	display: block;
@@ -2533,7 +2533,7 @@ footer.main-footer{
 	text-align: left;
 	color: #fff;
 	font-weight: 600;
-	font-size: 16px;
+	font-size: 18px;
 	position: relative;
 	top: 11px;
 	padding-left: 60px;
@@ -2564,7 +2564,7 @@ footer.main-footer{
 .nb_btn {
 	float: right;
 	padding: 15px 35px;
-	font-size: 11px;
+	font-size:14px;
 	font-weight: 600;
 	transition: all 300ms linear;
 }
@@ -2606,7 +2606,7 @@ footer.main-footer{
 }
 .percent {
     display: inline-block;
-    font-size: 12px;
+    font-size: 15px;
     line-height: 120px;
     z-index: 2;
 	color:#292929;
@@ -2626,7 +2626,7 @@ footer.main-footer{
 	width:200px;
 	display: inline-block;
 	color:#292929;
-	font-size:11px;
+	font-size:14px;
 	font-weight: 600;
 }
 .skillbar-box {
@@ -2791,14 +2791,14 @@ footer.main-footer{
 }
 .team-content  h4 {
 	text-align: left;
-	font-size: 16px;
+	font-size: 18px;
 	color: #000;
 	font-weight: 700;
 	padding-bottom: 4px;
 }
 .team-content h5 {
 	text-transform: uppercase;
-    font-size: 10px;
+    font-size: 12.5px;
     color: #999;
     font-weight: 600;
 	text-align: left;
@@ -2820,7 +2820,7 @@ footer.main-footer{
 	height: 45px;
 	line-height: 45px;
 	border-left: 1px solid #eee;
-	font-size: 12px;
+	font-size: 15px;
 	background: #f9f9f9;
 }
 .team-social li a:hover {
@@ -2832,7 +2832,7 @@ footer.main-footer{
 	top: 0;
 	border-left: 1px solid #eee;
 	border-bottom: 1px solid #eee;
-	font-size: 11px;
+	font-size:14px;
 	background: #f9f9f9;
 	width: 40px;
 	height: 40px;
@@ -2841,7 +2841,7 @@ footer.main-footer{
 }
 .tf-btn {
 	float:left;
-	font-size: 12px;
+	font-size: 15px;
     color: #000;
 	top: 13px;
 	font-weight: 600;
@@ -2893,7 +2893,7 @@ footer.main-footer{
 }
 .team-single_header_content h4 {
 	text-transform: uppercase;
-    font-size: 11px;
+    font-size:14px;
     color: #999;
     font-weight: 600;
     text-align: left;
@@ -2953,7 +2953,7 @@ footer.main-footer{
 }
 .tsc_title {
 	margin-right: 10px;
-	font-size: 10px;
+	font-size: 12.5px;
 	text-transform: uppercase;
 	font-weight: 600;
 	line-height: 50px;
@@ -2985,7 +2985,7 @@ footer.main-footer{
 	height: 60px;
 	line-height: 60px;
 	position: relative;
-	font-size: 11px;
+	font-size:14px;
 	font-weight: 500;
 }
 .contats-list_widget li:hover i {
@@ -3000,7 +3000,7 @@ footer.main-footer{
 	line-height: 60px;
 	text-align: center;
 	color: #292929;
-	font-size: 12px;
+	font-size: 15px;
 	font-weight: 400;
 }
 /*------ Services ------------------------------------------------*/
@@ -3130,7 +3130,7 @@ footer.main-footer{
 	float: left;
 	padding: 15px 35px;
 	color:#292929;
-	font-size: 11px;
+	font-size:14px;
 	font-weight: 600;
 	margin-top: 30px;
 }
@@ -3171,7 +3171,7 @@ footer.main-footer{
 	text-align: left;
 }
 .half-carousel-title-item h5 {
-	font-size: 11px;
+	font-size:14px;
 	font-weight: 500;
 }
 .half-carousel-conatiner {
@@ -3223,7 +3223,7 @@ footer.main-footer{
 	height: 36px;
 	line-height: 36px;
 	font-weight: 600;
-	font-size: 10px;
+	font-size: 12.5px;
 	z-index: 20;
 }
 .half-carousel .bg {
@@ -3233,7 +3233,7 @@ footer.main-footer{
 .hcw_btn {
 	position: absolute;
 	top: 50%;
-	font-size: 12px;
+	font-size: 15px;
 	cursor: pointer;
 	width: 46px;
 	height: 46px;
@@ -3350,7 +3350,7 @@ footer.main-footer{
 	left: 70px;
 	right: 70px;
 	color: #292929;
-	font-size: 11px;
+	font-size:14px;
 	font-weight: 600;
 	height: 50px;
 	line-height: 50px;
@@ -3438,7 +3438,7 @@ footer.main-footer{
 	color: #fff;
 }
 .hc-item_title {
-	font-size: 10px;
+	font-size: 12.5px;
 	text-transform: uppercase;
 	font-weight: 500;
 	letter-spacing: 2px;
@@ -3587,7 +3587,7 @@ footer.main-footer{
 .mapzoom-in:before, .mapzoom-out:before  , .scrollContorl:before{
     font-family: Font Awesome\ 5 Pro;
     content: "\f068";
-    font-size: 10px;
+    font-size: 12.5px;
     font-weight: 600;
 }
 .mapzoom-in:before {
@@ -3610,7 +3610,7 @@ footer.main-footer{
 	background: #fff;
 	margin-left: 10px;
 	font-weight: 600;
-	font-size: 11px;
+	font-size:14px;
 	border: 1px solid #eee;
 	transition: all .3s ease-in-out;
 }
@@ -3623,7 +3623,7 @@ footer.main-footer{
 .map-links_tabs a:before , .shop-tabs-menu li a:before {
     font-family: Font Awesome\ 5 Pro;
     content: "\f0da";
-    font-size: 12px;
+    font-size: 15px;
     font-weight: 600;
 	position: absolute;
 	right: 25px;
@@ -3680,7 +3680,7 @@ footer.main-footer{
 	width: 40px;
 	height: 40px;
 	line-height: 40px;
-	font-size: 10px;
+	font-size: 12.5px;
 	font-weight: 600;
 	background: #f9f9f9;
 	border-left: 1px solid #eee;
@@ -3695,7 +3695,7 @@ footer.main-footer{
 .card-link {
 	float: left;
 	font-weight: 600;
-	font-size: 11px;
+	font-size:14px;
 	margin-right: 6px;
 	text-transform: uppercase;
 }
@@ -3707,7 +3707,7 @@ footer.main-footer{
 	height: 50px;
 	line-height: 50px;
 	border-radius: 2px;
-	font-size: 16px;
+	font-size: 18px;
 	font-weight: 600;
 	box-shadow: 0 15px 5px rgba(0,0,0,0.08);
 	transition: all .3s ease-in-out;
@@ -3733,7 +3733,7 @@ footer.main-footer{
     font-weight: 600;
     position: relative;
     top: 14px;
-    font-size: 11px;
+    font-size:14px;
     color: #000;
 }
 .contacts-opt {
@@ -3830,7 +3830,7 @@ footer.main-footer{
 #message div{
 	text-align: left;
 	padding: 10px 30px;
-	font-size: 13px;
+	font-size: 15px;
 	font-weight: 500;
 	background: #f9f9f9;
 	border: 1px solid #eee;
@@ -3910,7 +3910,7 @@ footer.main-footer{
 }
 .testimonilas-text p{
     color: #878C9F;
-	font-size: 11px;
+	font-size:14px;
 	text-align: justify;
     font-style: italic;
 	line-height: 24px;
@@ -3935,7 +3935,7 @@ footer.main-footer{
 	border-bottom: 1px solid #eee;
 	background: #f9f9f9;
 	font-weight: 900;
-	font-size:11px;
+	font-size:14px;
 	color:#ccc;
 	transition: all 0.3s ease-out;
 }
@@ -3972,7 +3972,7 @@ footer.main-footer{
 	border-radius: 2px;
 	color: #292929;
 	padding: 10px 20px;
-	font-size: 11px;
+	font-size:14px;
 	font-weight: 600;
 }
 .tc-button  , .ss-slider-cont , .hero-slider-cont{
@@ -4098,7 +4098,7 @@ footer.main-footer{
 	line-height:36px;
 	margin-top:-18px;
 	color: #000;
-	font-size: 14px;
+	font-size: 15px;
 	z-index:20;
 	cursor:pointer;
 }
@@ -4154,7 +4154,7 @@ footer.main-footer{
 	margin-top: -18px;
 	background: #fff;
 	border: 1px solid #eee;
-	font-size: 10px;
+	font-size: 12.5px;
 	font-weight: 600;
 }
 .cal-head h4 {
@@ -4323,7 +4323,7 @@ footer.main-footer{
     line-height: 50px;
     color:#292929;
     width: 130px;
-    font-size: 10px;
+    font-size: 12.5px;
     font-weight: 600; 
     text-transform: uppercase;
     top: 40%;
@@ -4413,7 +4413,7 @@ footer.main-footer{
 	top:0;
 	width: 60px;
 	height: 60px;
-	font-size: 12px;
+	font-size: 15px;
 	background: #333;
 	border-left: 1px solid rgba(255,255,255,0.1);
 	font-weight: 600;
@@ -4434,7 +4434,7 @@ footer.main-footer{
 	overflow: hidden;
 	font-weight:600;
 	text-align: left;
-	font-size: 10px;
+	font-size: 12.5px;
 	text-transform: uppercase;
 	position:relative;
 }
@@ -4459,7 +4459,7 @@ footer.main-footer{
 }
 .vis-det .grid-item h3 a {
 	color: #000;
-	font-size: 11px;
+	font-size:14px;
 }
 .grid-item h3 a:hover {
 	padding-left: 30px;
@@ -4507,7 +4507,7 @@ footer.main-footer{
 	padding: 0 50px;
 	border-right: 1px solid #eee;
 	font-weight: 600;
-	font-size: 11px;
+	font-size:14px;
 	color: #666;
 	position: relative;
 }
@@ -4561,7 +4561,7 @@ footer.main-footer{
 	display: inline-block;
 	margin: 0 15px;
 	font-weight: 600;
-	font-size: 11px;
+	font-size:14px;
 	position: relative;
 	z-index:3;
 	text-align: center;
@@ -4577,7 +4577,7 @@ footer.main-footer{
 	background: #333;
 	cursor: pointer;
 	padding: 0 80px 0 40px;
-	font-size: 10px;
+	font-size: 12.5px;
 	font-weight: 600;
 	text-transform: uppercase;
 }
@@ -4589,7 +4589,7 @@ footer.main-footer{
     right: 0;
 	width: 56px;
 	height: 46px;
-	font-size: 12px;
+	font-size: 15px;
 	line-height: 46px;
     font-weight: bold;
 	color: #fff;
@@ -4625,7 +4625,7 @@ footer.main-footer{
 	position: relative;
 	margin-bottom: 6px;
 	background: #f5f5f5;
-	font-size: 11px;
+	font-size:14px;
 	font-weight: 600;
 	transition: all 200ms linear;
 }
@@ -4651,7 +4651,7 @@ footer.main-footer{
 	width: 60px;
 	height: 60px;
 	line-height: 60px;
-	font-size: 10px;
+	font-size: 12.5px;
  	background: #202020;
 	color: #fff;
 	cursor: pointer;
@@ -4685,7 +4685,7 @@ footer.main-footer{
 	border-radius: 100%;
 	border-radius: 50%;
 	color: #292929;
-	font-size: 10px;
+	font-size: 12.5px;
 	left: 50%;
 	top: 50%;
 	margin: -20px 0 0 -20px;
@@ -4728,7 +4728,7 @@ footer.main-footer{
 	padding: 5px 15px;
 	background: rgba(0,0,0,0.4);
 	color:#fff;
-	font-size:11px;
+	font-size:14px;
 	z-index:10;
 	font-weight: 600;
 }
@@ -4752,7 +4752,7 @@ article  {
 article p {
 	padding-bottom:15px;
 	text-align:justify;
-	font-size:11px;
+	font-size:14px;
 }
 article {
 	margin-bottom:30px;
@@ -4797,7 +4797,7 @@ article:before{
 	color:#666;
 }
 .post .column-post h4.post-title {
-	font-size: 16px;
+	font-size: 18px;
 	text-align:left;
 	padding-bottom:15px;
 }
@@ -4878,7 +4878,7 @@ article:before{
 }
 .post-tags li a , .tagcloud li a {
 	float:left;
-	font-size: 10px;
+	font-size: 12.5px;
 	text-transform: uppercase;
 	padding: 12px 30px;
 	background: #292929;
@@ -4976,7 +4976,7 @@ article:before{
 .search::-webkit-input-placeholder  {
 	color: #999;
 	font-weight: 500;
-	font-size: 12px;
+	font-size: 15px;
 	position: relative;
 	font-family: 'Poppins', sans-serif;
 }
@@ -4990,7 +4990,7 @@ article:before{
 	right:0;
 	width: 70px;
 	height: 50px;
-	font-size: 11px;
+	font-size:14px;
 }
 .search-submit:hover i {
 	opacity:0.5;
@@ -5088,7 +5088,7 @@ article:before{
 }
 .cat-item a{
 	font-weight: 400;
-	font-size: 12px;
+	font-size: 15px;
 }
 .cat-item   span {
 	float: right;
@@ -5098,7 +5098,7 @@ article:before{
 	background: #333;
 	border-radius: 2px;
 	text-align: center;
-	font-size: 10px;
+	font-size: 12.5px;
 }
 .widget-inner .btn-nav {
     margin-bottom: 0;
@@ -5215,7 +5215,7 @@ article:before{
 	padding: 10px 25px;
 	background: #333;
 	margin: 0 6px 6px 0;
-	font-size: 10px;
+	font-size: 12.5px;
     text-transform: uppercase;
 	font-weight: 600;
 }
@@ -5225,7 +5225,7 @@ article:before{
 	margin-top: 12px;
 	text-transform: uppercase;
 	font-weight: 600;
-	font-size: 10px;
+	font-size: 12.5px;
 }
 .add_comm i {
 	padding-left: 10px;
@@ -5279,7 +5279,7 @@ article:before{
 	top: 20px;
 	width: 30px;
 	height: 30px;
-	font-size: 10px;
+	font-size: 12.5px;
 	line-height: 30px;
 	font-weight: 600;
 	background: #fff;
@@ -5306,7 +5306,7 @@ article:before{
 	top: 20px;
 	position: relative;
 	text-transform: uppercase;
-	font-size: 10px;
+	font-size: 12.5px;
 	color: #000;
 	font-weight: 500;
 }
@@ -5315,13 +5315,13 @@ article:before{
 	padding: 8px 20px;
 	background: #292929;
 	font-weight: 500;
-	font-size: 11px;
+	font-size:14px;
 	margin-top: 10px;
 }
 .comment-reply-link i {
 	padding-right: 10px;
 	color: #fff;
-	font-size: 10px;
+	font-size: 12.5px;
 }
 .comment-body_dec {
 	position: absolute;
@@ -5333,7 +5333,7 @@ article:before{
 }
 .pr-subtitle {
     float: left;
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 600;
     color: #000;
 	margin-bottom: 30px;
@@ -5353,7 +5353,7 @@ article:before{
 	width: 100%;
 	padding: 15px 30px;
 	color: #000;
-	font-size: 12px;
+	font-size: 15px;
 	-webkit-appearance: none;
 	font-family: 'Poppins', sans-serif;
 }
@@ -5361,7 +5361,7 @@ article:before{
 .custom-form textarea::-webkit-input-placeholder  , .subcribe-form input.enteremail::-webkit-input-placeholder {
 	color: #666;
 	font-weight: 500;
-	font-size: 12px;
+	font-size: 15px;
 	position: relative;
 	font-family: 'Poppins', sans-serif;
 }
@@ -5369,7 +5369,7 @@ article:before{
 .custom-form textarea:-moz-placeholder {
 	color: #666;
 	font-weight: 500;
-	font-size: 12px;
+	font-size: 15px;
 	font-family: 'Poppins', sans-serif;
 }
 .custom-form textarea {
@@ -5461,7 +5461,7 @@ article:before{
     padding: 8px 16px;
     color: #292929;
     border-radius: 2px;
-    font-size: 11px;
+    font-size:14px;
     font-weight: 600;
 }
 .shop-item-grid .shop-counter span {
@@ -5498,7 +5498,7 @@ article:before{
 	position: absolute;
 	left: 0;
 	top: 20px;
-	font-size: 11px;
+	font-size:14px;
 	color: #666;
 	font-weight: 600;
 }
@@ -5514,12 +5514,12 @@ article:before{
 	text-align: left;
 	color: #292929;
 	font-weight: 600;
-	font-size: 11px;
+	font-size:14px;
 	text-transform: uppercase;
 }
 .hero-search-title i {
 	margin-right: 15px;
-	font-size: 14px;
+	font-size: 15px;
 	position: relative;
 	top: 1px;
 }
@@ -5531,7 +5531,7 @@ article:before{
     text-transform: uppercase;
     -webkit-appearance: none;
     font-family: 'Poppins', sans-serif;
-	font-size: 10px;
+	font-size: 12.5px;
 	font-weight: 600;
 	cursor: pointer;
 	background: #292929;
@@ -5570,7 +5570,7 @@ article:before{
     line-height: 28px;
     color: #292929;
     top: 8px;
-    font-size: 10px;
+    font-size: 12.5px;
     font-weight: 600;
 }
 .shop-rage-wrap .srw_btn:hover {
@@ -5588,7 +5588,7 @@ article:before{
   	cursor: pointer;
 	width: 33.3333333%;
 	font-weight: 500;
-	font-size: 11px;
+	font-size:14px;
 }
 .radio-group input[type=radio]:checked + label {
   	color: #292929;
@@ -5610,20 +5610,20 @@ article:before{
 	float:left;
 }
 .reviews_counter_wrap_text {
-	font-size: 11px;
+	font-size:14px;
 	color: #999;
 	font-weight: 500;
 	margin-top: 1px;
 }
 .reviews_counter_wrap .star-rating i {
     margin: 0 1px;
-	font-size: 10px;
+	font-size: 12.5px;
 }
 .reviews_counter_wrap .star-rating {
 	margin-right: 10px;
 }
 .grid-item_price_item{
-	font-size: 11px;
+	font-size:14px;
     position: relative;
 	float:left;
  	font-weight: 600;
@@ -5632,7 +5632,7 @@ article:before{
 	top: 0px;
 }
 .grid-item_price_item strong {
-	font-size: 17px;
+	font-size: 18px;
 	color: #333;
  	position: relative;
 	top: 1px;
@@ -5646,7 +5646,7 @@ article:before{
 .grid-item_price .add_cart {
 	float: right;
 	padding: 8px 10px;
-	font-size: 10px;
+	font-size: 12.5px;
 	font-weight: 600;
 	cursor: pointer;
 	background: #444;
@@ -5663,7 +5663,7 @@ article:before{
 	top: 0;
 	right: 0;
 	padding: 12px 15px;
-	font-size: 11px;
+	font-size:14px;
 	font-weight: 600;
 	z-index: 50;
 	color: #292929;
@@ -5677,7 +5677,7 @@ article:before{
 	background: #333;
 	font-weight: 600;
 	cursor: pointer;
-	font-size: 11px;
+	font-size:14px;
 	margin-top: 30px;
 }
 .load-more_btn i {
@@ -5711,7 +5711,7 @@ article:before{
 	padding-bottom: 15px;
 }
 .shop-header-title h2 span {
-	font-size: 12px;
+	font-size: 15px;
 	color:#999;
 	font-weight: 500;
 	margin-left: 10px;
@@ -5767,7 +5767,7 @@ article:before{
     display: none;
 }
 .custom-form .leave-rating label {
-    font-size: 14px;
+    font-size: 15px;
     float: right;
     letter-spacing: 4px;
     cursor: pointer;
@@ -5823,7 +5823,7 @@ article:before{
 	font-weight:bold;
 }
 .pr-remove {
-	font-size: 10px;
+	font-size: 12.5px;
 }
 .pr-remove:hover i {
 	color:#292929;
@@ -5838,7 +5838,7 @@ article:before{
 .coupon-holder input{
 	float:left;
 	margin-bottom:20px;
-	font-size: 14px;
+	font-size: 15px;
 	height:50px;
 	border-radius: none;
 	position:relative;
@@ -5856,7 +5856,7 @@ article:before{
 	color:#fff;
 	cursor:pointer;
 	padding:0 40px;
-	font-size: 10px;
+	font-size: 12.5px;
 	font-weight: 600;
 	background:#292929;
 	-webkit-appearance: none;
@@ -5889,7 +5889,7 @@ h4.cart-title span {
 	width:100%;
 	cursor:pointer;
 	padding:0 20px;
-	font-size: 11px;
+	font-size:14px;
 	font-weight: 600;
 	-webkit-appearance: none;
 	position:relative;
@@ -5949,7 +5949,7 @@ h4.cart-title span {
 .total-table th {
 	border-bottom:1px solid rgba(255,255,255,0.1);
 	text-align:left;
-	font-size: 12px;
+	font-size: 15px;
 }
 .tab-content   {
     width: 100%;
@@ -6028,7 +6028,7 @@ h4.cart-title span {
     float: left;
     width: 100%;
     text-align: left;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 600;
     color: #292929;
 	margin: 30px 0 20px;
@@ -6065,7 +6065,7 @@ h4.cart-title span {
 }
 .error-wrap p {
 	color: #fff;
-	font-size: 12px;
+	font-size: 15px;
 	text-align: center;
 }
 .error-wrap form {
@@ -6182,7 +6182,7 @@ h4.cart-title span {
 	width: 100%;
 	background: #292929;
 	text-transform: uppercase;
-	font-size: 10px;
+	font-size: 12.5px;
 	font-weight: 500;
 }
 .main-register .tabs-menu li.current a  {
@@ -6197,7 +6197,7 @@ h4.cart-title span {
 }
 .soc-log p {
 	margin-bottom:12px;
-	font-size:11px;
+	font-size:14px;
 	color:#454545;
 	text-align: center;
 }
@@ -6209,7 +6209,7 @@ h4.cart-title span {
 	line-height:50px;
 	margin-bottom:10px;
 	border-radius:2px;
-	font-size:11px;
+	font-size:14px;
 	font-weight:600;
 	position:relative;
 	text-align: center;
@@ -6250,7 +6250,7 @@ h4.cart-title span {
 	border-radius:2px;
 	color:#000;
 	font-weight: 600;
-	font-size: 11px;
+	font-size:14px;
 	text-transform: uppercase;
 	cursor:pointer;
 	-webkit-appearance: none;
@@ -6267,7 +6267,7 @@ h4.cart-title span {
     text-align: left;
     font-weight: 500;
     color: #666;
-    font-size: 11px;
+    font-size:14px;
 	margin-bottom: 6px;
 }
 .main-register .filter-tags{
@@ -6290,7 +6290,7 @@ h4.cart-title span {
 .filter-tags input:checked:after  {
 	font-family: Font Awesome\ 5 Pro;
 	content: "\f00c";
-	font-size: 12px;
+	font-size: 15px;
 	position: absolute;
 	top:2px;
 	left: 3px;
@@ -6308,7 +6308,7 @@ h4.cart-title span {
 .lost_password a   {
 	float:left;
 	color: #666;
-	font-size:11px;
+	font-size:14px;
 	font-weight:500;
 }
 .lost_password a:hover {
@@ -6347,7 +6347,7 @@ h4.cart-title span {
 .tbhc_btn , .mob-hid_btn {
 	display: block;
 	float: left;
-	font-size: 10px;
+	font-size: 12.5px;
 	font-weight: 500;
 	text-transform: uppercase;
 	color: rgba(255,255,255,0.8)
@@ -6355,7 +6355,7 @@ h4.cart-title span {
  .mob-hid_btn {
 	padding: 18px 0;
 	cursor: pointer;
-	font-size: 11px;
+	font-size:14px;
  	font-weight: 600;
 	margin-bottom: 15px;
 }
@@ -6365,7 +6365,7 @@ h4.cart-title span {
 }
 .tbhc_btn i{
 	margin-right: 10px;
-	font-size: 12px;
+	font-size: 15px;
 	position: relative;
 	top: 1px;
 }		
@@ -6458,7 +6458,7 @@ h4.cart-title span {
 	position:relative;
 	font-weight: 600;
 	text-transform:uppercase;
-	font-size: 11px;
+	font-size:14px;
 	color: #fff;
 	line-height:20px;
 	text-align:left;
@@ -6818,7 +6818,7 @@ h4.cart-title span {
     margin-top: 0;
 }
 .shop-header-title h2 {
-    font-size: 17px;
+    font-size: 18px;
 }
 .det-list li {
     padding-left: 15px;

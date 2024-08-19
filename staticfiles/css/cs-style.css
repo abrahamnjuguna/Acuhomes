@@ -15,7 +15,7 @@ body {
 	margin: 0;
 	padding: 0;
 	font-weight: 400;
-	font-size: 13px;
+	font-size: 15px;
 	height: 100%;
 	text-align: center;
 	background: #292929;
@@ -74,7 +74,7 @@ body {
 } 
 /*--------------Typography--------------------------------------*/
 p {
-	font-size: 13px;
+	font-size: 15px;
 	line-height: 22px;
 	padding-bottom: 10px;
 	font-weight: 400;
@@ -182,7 +182,7 @@ p {
 }
 .cs-content-wrapper h3 {
 	color: #fff;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 500;
     padding-bottom: 10px;
 	margin-top:50px;
@@ -190,7 +190,7 @@ p {
 }
 .cs-content-wrapper p {
 	color: #fff;
-	font-size: 11px;
+	font-size:14px;
 }
 #subscribe {
 	margin-top: 10px;
@@ -210,14 +210,14 @@ p {
 #subscribe .enteremail::-webkit-input-placeholder {
 	color: #666;
 	font-weight: 500;
-	font-size: 12px;
+	font-size: 15px;
 	position: relative;
  	font-family: 'Poppins', sans-serif;
 }
 #subscribe .enteremail::-webkit-input-placeholder {
 	color: #666;
 	font-weight: 500;
-	font-size: 12px;
+	font-size: 15px;
  	font-family: 'Poppins', sans-serif;
 }
 #subscribe-button {
@@ -234,7 +234,7 @@ p {
 	background: #292929;
     height: 50px;
     line-height: 50px;
-    font-size: 11px;
+    font-size:14px;
  	transition: all 200ms linear;
     outline: none;
     text-transform: uppercase;
@@ -388,7 +388,7 @@ p {
 .cs-countdown-item p {
     position: relative;
  	color: #dda15e;
-    font-size: 11px;
+    font-size:14px;
     font-weight: 600;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -465,7 +465,7 @@ p {
 	cursor: pointer;
     font-weight: 600;
     color: #dda15e;
-	font-size: 10px;
+	font-size: 12.5px;
 	text-transform: uppercase;
 	transition: all 100ms linear;
 }
@@ -547,7 +547,7 @@ p {
 	text-align: left;
 	padding-top: 20px;
 	font-weight: 600;
-	font-size: 16px;
+	font-size: 18px;
 	color: #292929;
 }
 .close-contact-form {
@@ -582,7 +582,7 @@ p {
     padding: 15px 20px;
     border-radius: 2px;
     color: #7d93b2;
-    font-size: 12px;
+    font-size: 15px;
     -webkit-appearance: none;
     outline: none;
     overflow: hidden;
@@ -597,7 +597,7 @@ p {
     width: 100%;
     border-radius: 4px;
     color: #7d93b2;
-    font-size: 12px;
+    font-size: 15px;
     -webkit-appearance: none;
     outline: none;
     overflow: hidden;
@@ -615,7 +615,7 @@ p {
 	text-transform: uppercase;
 	font-weight: 600;
  	font-family: 'Poppins', sans-serif;
-    font-size: 10px;
+    font-size: 12.5px;
     margin-top: 15px;
 	background: #292929;
 	color: #dda15e;
@@ -636,20 +636,20 @@ p {
 .custom-form textarea::-webkit-input-placeholder {
 	color: #666;
 	font-weight: 500;
-	font-size: 12px;
+	font-size: 15px;
 	position: relative;
 }
 .custom-form input:-moz-placeholder,
 .custom-form textarea:-moz-placeholder {
 	color: #666;
 	font-weight: 500;
-	font-size: 12px;
+	font-size: 15px;
 	font-family: 'Poppins', sans-serif;
 }
 #message div{
 	text-align: left;
 	padding: 10px 30px;
-	font-size: 13px;
+	font-size: 15px;
 	font-weight: 500;
 	background: #f9f9f9;
 	border: 1px solid #eee;

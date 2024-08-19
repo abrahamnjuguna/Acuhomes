@@ -46,6 +46,13 @@ def services(request):
     return render(request, 'home/services.html', context)
 
 
+def single_service(request,pk):
+    title = "Single Service"
+    service_obj = Service.objects.get(id=pk)
+    
+    return render(request, 'home/single_service.html')
+
+
 def portfolio(request):
     title = 'Portfolio'
     projects = Project.objects.all()
