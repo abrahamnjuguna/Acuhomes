@@ -5,6 +5,7 @@ def home(request):
     title = 'Home'
     projects = Project.get_random_projects()
     services = Service.objects.all()
+    promo_video = PromoVideo.objects.first()
     if request.method == 'POST':
         email = request.POST.get('email')
         if email:
@@ -20,6 +21,7 @@ def home(request):
         'title':title,
         'projects':projects,
         'services':services,
+        'promo_video':promo_video
     }
     return render(request, 'home/index.html', context)
 

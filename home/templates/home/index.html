@@ -53,6 +53,7 @@
             </div>
         </div>
         <!--hero_promo-wrap-->
+        {% if promo_video %}
         <div class="hero_promo-wrap bot-element2 mob-hid">
             <div class="hero_promo-button">
                 <div class="hp_popup" id="html5-videos" data-html="#video3"><i class="fas fa-play"></i></div>
@@ -64,9 +65,10 @@
         <!-- Hidden video div -->
         <div style="display:none;" id="video3">
             <video class="lg-video-object lg-html5" controls preload="none">
-                <source src="static/video/1.mp4" type="video/mp4">
+                <source src="{{promo_video.video.url}}" type="video/mp4">
             </video>
         </div>
+        {% endif %}
         <!--hero_promo-wrap end-->
         <div class="hero-dec_top"></div>
         <div class="hero-slider-pagination hsp2"></div>
