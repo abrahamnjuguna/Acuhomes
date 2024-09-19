@@ -84,9 +84,27 @@
                 <div class="about-wrap">
                     <p>Welcome to Acuhomes Limited, your premier destination for Real Estate construction, property management, sales, and business consultation. With a focus on delivering excellence, Acuhomes specializes in crafting top-tier homes, ranging from elegant mansions to charming bungalows.</p>
                     <p>At Acuhomes, quality is more than a standard; it's our cornerstone. From inception to completion, we strive for perfection in every project. Discover the Acuhomes difference today and let us exceed your expectations</p>
+                    <div class="scr_content scr_dec fl-wrap" id="sec1">
+                        <div class="accordion-lite-container fl-wrap mar-top">
+                            <div class="accordion-lite-header fl-wrap">Our Mission<i class="fas fa-plus"></i></div>
+                            <div class="accordion-lite_content fl-wrap">
+                                <p>To provide high-standard, quality construction and management services, that are reliable and sustainable </p>
+                            </div>
+                        </div>
+                        <!--   accordion-lite end -->
+                        <!--   accordion-lite -->
+                        <div class="accordion-lite-container fl-wrap">
+                            <div class="accordion-lite-header fl-wrap">Our Vision<i class="fas fa-plus"></i></div>
+                            <div class="accordion-lite_content fl-wrap">
+                                <p>To be a recognized leader in Real Estate construction and development, management and consultancy While maintaining our authentic level of service founded on basic core values of integrity, proffesionalism and positive attitude. </p>
+                            </div>
+                        </div>
+                        <!--   accordion-lite end -->
+                    </div>
                     <!-- <p>What sets us apart is our unwavering commitment to quality and customer satisfaction. At Acuhomes, we thrive on client referrals, a testament to our dedication to delivering exceptional results. Our team of professionals, known as 'Fundistore', is renowned for their competence, efficiency, and dedication to excellence.</p> -->
                     <a href="{% url 'about' %}" class="btn float-btn"><i class="fas fa-caret-right"></i><span>Read More About Us</span></a>
                 </div>
+                
             </div>
             <div class="col-md-1"></div>
             <div class="col-md-6">
@@ -97,7 +115,6 @@
             </div>
         </div>
     </div>
-    <div class="sq-secdec"></div>
 </section>
 
 
@@ -129,10 +146,10 @@
                     <h4>We Offer Smarter & More Affordable Access To <br> Construction Services and Equipment. <br> We Are Acuhomes.</h4>
                 </div>
                 <div class="col-md-1"></div>
-                <div class="col-md-5">
+                <!-- <div class="col-md-5">
                     <p>At AcuHomes, we deliver excellence in construction. With meticulous attention to detail, we craft residential and commercial spaces that exceed expectations.</p>
                     <p>From design to execution, trust us to bring your vision to life with precision and innovation.</p>
-                </div>
+                </div> -->
             </div>
         </div>
         <div class="cards-wrap fl-wrap">
@@ -150,7 +167,7 @@
                                         <h2>{{service.title}}</h2>
                                         <p>{{service.description}}</p>
                                     </div>
-                                    <div class="serv-num">01.</div>
+                                    <div class="serv-num">{{service.id}}</div>
                                 </div>
                             </div>
                             <div class="content-back">

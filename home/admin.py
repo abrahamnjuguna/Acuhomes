@@ -33,3 +33,5 @@ class ExpertAdmin(admin.ModelAdmin):
 @admin.register(Service)
 class ServiceAdmin(admin.ModelAdmin):
     list_display = ('title',)
+
+admin.register(PromoVideo)

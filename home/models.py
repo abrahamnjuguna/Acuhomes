@@ -99,3 +99,8 @@ class Service(models.Model):
 
     def __str__(self):
         return self.title
+
+class PromoVideo(models.Model):
+    video = models.FileField()
+
+    
