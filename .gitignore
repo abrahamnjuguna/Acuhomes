@@ -40,9 +40,6 @@ cover/
 # Ignore database
 *.sqlite3*
 
-# Ignore Django media and static directories
-media/
-static/
 
 # Ignore Django migration files
 **/migrations/
