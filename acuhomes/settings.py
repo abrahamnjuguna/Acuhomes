@@ -41,7 +41,14 @@ INSTALLED_APPS = [
 
     #apps
     'home',
+
+    #dependancies
+    "post_office",
 ]
+
+
+EMAIL_BACKEND = 'post_office.EmailBackend'
+
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',

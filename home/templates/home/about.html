@@ -3,7 +3,7 @@
 {% block content %}
 <section class="no-padding" data-scrollax-parent="true">
     <div class="parallax-inner page-title-wrap">
-        <div class="bg" data-bg="{% static 'images/bg/34.jpg' %}" ></div>
+        <div class="bg" data-bg="{% static 'images/bg/about.jpg' %}" ></div>
         <div class="parallax-wrap">
             <div class="container">
                 <div class="page-title">
@@ -43,7 +43,7 @@
                         <span class="card-item_num">{{service.id}}</span>
                         <h4>{{service.title}}</h4>
                         <p>{{service.description|truncatechars:70}}</p>
-                        <a href="#" class="card-link">Read more</a>
+                        <a href="{% url 'single_service' service.id %}" class="card-link">Read more</a>
                     </div>
                 </div>
             {% endfor %}

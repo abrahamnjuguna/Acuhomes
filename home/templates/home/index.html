@@ -160,14 +160,14 @@
                 {% for service in services %}
                     <div class="col-md-4">
                         <a class="content-inner fl-wrap" href="#">
-                            <div class="content-front">
+                            <div class="content-front" style="height: 350px;">
                                 <div class="cf-inner">
                                     <div class="inner">
                                         <div class="dec-icon">
                                             <i class="fal fa-tools"></i>
                                         </div>
                                         <h2>{{service.title}}</h2>
-                                        <p>{{service.description}}</p>
+                                        <p>{{service.description|truncatewords:"50"}}</p>
                                     </div>
                                     <div class="serv-num">{{service.id}}</div>
                                 </div>
